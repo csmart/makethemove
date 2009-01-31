@@ -1,0 +1,824 @@
+# Swedish translations for Make The Move website
+# Svenska översättningar för paket Make The Move website.
+# Copyright (C) 2007 Christopher Smart
+# This file is distributed under the same license as the Make The Move website.
+# Chris Smart <chris@kororaa.org>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Make The Move 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-02-12 04:58-0800\n"
+"PO-Revision-Date: 2007-02-12 04:58-0800\n"
+"Last-Translator: Chris Smart <chris@kororaa.org>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: about.php:3 contact.php:5 credits.php:3 footer.php:4
+msgid "Contact"
+msgstr ""
+
+#: about.php:5 contact.php:3 footer.php:4
+msgid "About"
+msgstr ""
+
+#: about.php:7
+msgid "The 'Make The Move' project aims to present <a href=\"linux.php\">Linux</a> and <a href=\"foss.php\">free open source software</a> as viable alternatives to other systems and to provide helpful information for people considering to 'make the move'."
+msgstr ""
+
+#: action.php:2 action.php:11 considerations.php:4 data.php:2 data.php:13
+#: index.php:36 table.php:3
+msgid "Other considerations"
+msgstr ""
+
+#: action.php:2 action.php:11 getinvolved.php:2 getinvolved.php:24
+#: getstarted.php:4 index.php:44
+msgid "Get started!"
+msgstr ""
+
+#: action.php:4 considerations.php:2 considerations.php:68 getstarted.php:2
+#: getstarted.php:47 index.php:40
+msgid "See it in action!"
+msgstr ""
+
+#: action.php:6
+msgid "Screenshots of various Linux distributions and free open source software are available here at our <a target=\"_blank\" href=\"http://gallery.makethemove.net/\">gallery</a>."
+msgstr ""
+
+#: action.php:8
+msgid ""
+"We are also getting ready to prepare some simple videos and to help you 'make the move'.<br /><br />\n"
+"Stay tuned!"
+msgstr ""
+
+#: considerations.php:2 considerations.php:68 data.php:4 index.php:32
+#: why.php:2 why.php:44
+msgid "What about my data?"
+msgstr ""
+
+#: considerations.php:6
+msgid "No operating system is perfect, and Linux is no exception. If it was perfect it wouldn't keep improving!"
+msgstr ""
+
+#: considerations.php:8
+msgid "You might encounter some issues when moving to Linux so we want to let you know what you might encounter so you can make an informed decision."
+msgstr ""
+
+#: considerations.php:10
+msgid "Windows Software"
+msgstr ""
+
+#: considerations.php:11
+msgid "It is likely that much of your existing Windows software will not run on Linux natively. As discussed in the '<a href=\"foss.php\">What is FOSS?</a>' section of this website, Linux is a completely different operating system and as such only software written for it will work. Fortunately there are hundreds of thousands of free software packages available for a whole host of purposes that may replace the need for your current software collection. A table of alternatives can be found <a target=\"_blank\" href=\"http://www.linuxrsp.ru/win-lin-soft/table-eng.html\">here</a> (note: external website, we maintain a backup <a href=\"table.php\">here</a>)."
+msgstr ""
+
+#: considerations.php:13
+msgid "In some cases you may find that due to business or other reasons you have a particular software product that you absolutely must use and that there is no Linux equivalent. Don't despair, it may still be possible to 'make the move'."
+msgstr ""
+
+#: considerations.php:15
+msgid "Windows Emulators"
+msgstr ""
+
+#: considerations.php:17
+msgid "There are some programs for Linux that let you run your Windows software under Linux via an 'emulation' method. Some of these include <a href=\"http://www.vmware.com\">Vmware</a>, <a href=\"http://www.win4lin.com/\">Win4lin</a>, <a href=\"http://bochs.sourceforge.net/\">bochs</a>, <a href=\"http://www.xensource.com/\">xen</a> and <a href=\"http://www.qemu.com/\">qemu</a>. You will need your own Windows license key and installation media as these types of software actually do a full installation of Windows under Linux. You can then start Windows like a normal Linux application and run your software under Windows itself."
+msgstr ""
+
+#: considerations.php:19
+msgid "If emulation is not your style you can always run Linux side by side on your computer with your Windows installation and reboot into which ever one you need to use."
+msgstr ""
+
+#: considerations.php:21
+msgid "There are some other programs which provide a compatibility layer for Linux to allow you to run Windows software without emulation. One such program is called <a target=\"_blank\" href=\"http://winehq.org\">wine</a>. Wine is not an emulator but mimics many of the Windows system functions (you do not need Windows installed on your computer). This allows you to install your Windows software through wine and then run it under Linux. Not all Windows software works using this method, but many (such as the Australian Tax Office's 'eTax') work with minimum effort. There is a good resource online for which applications work under wine, <a target=\"_blank\" href=\"http://appdb.winehq.org/\">here</a>."
+msgstr ""
+
+#: considerations.php:23
+msgid "Although wine allows you to install many Windows applications they can be tricky to get working. There is also a commercial product based on wine called <a href=\"http://codeweavers.com\">CrossOver</a> created by Codeweavers. This software allows you to easily install many common types of Windows software such as: Microsoft Office (versions 2003, XP, 2000 and 97), Microsoft Project, Microsoft Visio, Adobe Photoshop, Lotus Notes, Quicken, Shockwave Director, QuickTime and many more, all under Linux. It is available to purchase online and provides you with support to help get your software running."
+msgstr ""
+
+#: considerations.php:25
+msgid "Remember there are usually excellent open source alternatives to the Windows software you want to use, but if you absolutely have to run it, then one of the options above could be the answer."
+msgstr ""
+
+#: considerations.php:27
+msgid "Games"
+msgstr ""
+
+#: considerations.php:28
+msgid "Like other Windows based software mentioned above, most computer games will not run natively under Linux. Fortunately some game companies are beginning to improve these matters. There are a few however, like the Unreal Tournament and Quake series of games, which already run perfectly under Linux. The main reason for this is that they use the OpenGL 3D rendering engine, which is open source and runs under Linux natively. Many other games use Microsoft's closed source DirectX 3D engine which will only run on Windows. Once again wine comes to the rescue here as many games will run through it."
+msgstr ""
+
+#: considerations.php:30
+msgid "As with 'Crossover' above, there is a commercial product based on wine called <a href=\"http://cedega.com\">Cedega</a> by TransGaming Technologies, which specialises in supporting almost two thousands of Windows games under Linux. Many popular games are supported such as Half Life 2, Counter Strike, Battlefield, Medal of Honor, Call of Duty, StarCraft, Civilization, Grand Theft Auto, Heroes of Might and Magic, EVE, EverQuest, World of Warcraft and many others. More information including a database of supported games can be found <a target=\"_blank\" href=\"http://transgaming.org/gamesdb/\">here</a>."
+msgstr ""
+
+#: considerations.php:32
+msgid "Of course Linux comes with thousands of native games, ranging from arcade style to board games, strategy, role playing and even 3D first person shooters. Plenty to keep the children (and the child in you) well entertained!"
+msgstr ""
+
+#: considerations.php:34
+msgid "Microsoft Office Compatibility"
+msgstr ""
+
+#: considerations.php:35
+msgid "We also discuss Microsoft Office formats in the '<a href=\"data.php\">What about my data?</a>' section of this website. You may wish to also read it if you haven't already."
+msgstr ""
+
+#: considerations.php:37
+msgid "Essentially, the file format for Microsoft Office documents is closed source and proprietary. Although Word and Excel files are the pseudo-standard in many business contexts, it is important to understand that the way in which the Microsoft Office suite of applications store your data on your computer's hard drive is not a standard."
+msgstr ""
+
+#: considerations.php:39
+msgid "Fortunately, there are a number of excellent Linux applications which are great replacements for all of Microsoft Office's functionality. Even better, some programs like the <a href=\"http://openoffice.org\">OpenOffice.org</a> suite can even read and write Microsoft Office files. As of version 2.0.4, OpenOffice.org supports Microsoft Office 95, 97, 2000, XP and also 2003 formats (as well as many others including export to PDF). While free open source software file formats exist for most things you are likely to want to do on your computer, you may experience problems when swapping complex Microsoft Office files (such as those with many macros), but it is always improving. As Microsoft owns the source code to these formats they can (and do) change the format with new releases. The default file format for OpenOffice.org however follows the recognised international open document standard <a target=\"_balnk\" href=\"http://www.iso.org/iso/en/commcentre/pressreleases/2006/Ref1004.html\">ISO26300</a> and thus will not change to be incompatible in the future. This means your documents are safe and secure no matter what software you choose to run down the track. Comforting to know, isn't it?"
+msgstr ""
+
+#: considerations.php:42
+msgid "If you require Microsoft Office support under Linux, OpenOffice.org should do almost everything you require (and more). You can also try out OpenOffice.org for yourself under Windows!"
+msgstr ""
+
+#: considerations.php:44
+msgid "Hardware"
+msgstr ""
+
+#: considerations.php:45
+msgid "Linux supports more hardware devices out of the box than any other operating system, however there is a range of devices that do not work easily. Most of these are what is called 'win-hardware'. These devices have a software component which needs to be installed on Windows in order for them work. As Linux does not run Windows software these devices are often hard to configure. Example devices include some wireless cards, some printers, and some internal dialup modems. In many cases the open source community has written their own Linux drivers for these devices, however in some cases the manufacturer may not release sufficient information to make this possible. Fortunately more and more manufacturers are supporting Linux, so hopefully this issue will soon be in the past."
+msgstr ""
+
+#: considerations.php:47
+msgid "Linux supports almost every video card used today; however it may not always be able to take advantage of the 3D features of the card in a default installation. For example, while Linux supports NVIDIA cards well in the 2D arena, there is no open source 3D driver available for them. NVIDIA does provide excellent Linux drivers for their cards however, which take full advantage of their 3D features. You may need to obtain such drivers separately from the manufacturer (they are usually available on their website) to install them on your computer. This is due to licensing restrictions which prevent Linux distributions including them by default. Installation under various Linux distributions is usually well supported though and there are always people willing to help."
+msgstr ""
+
+#: considerations.php:49
+msgid "Codecs"
+msgstr ""
+
+#: considerations.php:50
+msgid "'Codec' stands for 'compressor/decompressor' and relates to the software component which translates video and/or audio between its compressed (stored) form and it's uncompressed form (for display). QuickTime is an example of such a codec."
+msgstr ""
+
+#: considerations.php:52
+msgid "Unfortunately many codecs for common video (and audio) formats have not been written for Linux. However there are packages such as win32codecs which allow Linux to use the Windows codecs to access these formats and play all your videos! Again, due to licensing restrictions many Linux distributions do not include these by default. These codecs are usually quite easy to install though, and there is usually lots of information on how to install them under your chosen version of Linux."
+msgstr ""
+
+#: considerations.php:54
+msgid "Naturally, the open source community has its own free open source video and audio codecs. Perhaps two of the most well known are the audio codec called <a href=\"http://www.xiph.org/ogg/\">oggvorbis</a> and the video codec called <a href=\"http://www.xvid.org/\">xvid</a>. These codecs are not only open source, they are patent free. You can feel confident encoding your music and videos using these codecs and of course under Linux you don't have to worry about issues like <a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Digital_rights_management\">digital rights management</a>."
+msgstr ""
+
+#: considerations.php:56
+msgid "Encrypted DVDs"
+msgstr ""
+
+#: considerations.php:57
+msgid "When the DVD format was created it included a form of encryption that was designed to avoid unauthorised copying.  Software DVD players were then each given a decryption key to work with all DVDs.  For various reasons, official Linux DVD software players were not available. As it turned out, the encryption design had some issues and it was discovered that a key was not necessary to access the DVD information."
+msgstr ""
+
+#: considerations.php:59
+msgid "There is a package called libdvdcss which can enable most Linux media players to decrypt and display your DVDs. The use of this package may not be legal in all countries even when used with your own, purchased DVDs. This is due to patent restrictions and digital copyright laws. As such, it is not included with most Linux distributions. If it is legal to use it in your location then installing it is usually pretty easy, but again there are always people willing to help you if needed."
+msgstr ""
+
+#: considerations.php:61
+msgid "In Summary"
+msgstr ""
+
+#: considerations.php:62
+msgid "Linux has a great range of software applications to meet the software needs you may have. Furthermore there is wine, CrossOver, Cedega and other applications available to provide Windows compatibility for many other software products you may wish to use."
+msgstr ""
+
+#: considerations.php:64
+msgid "As Linux gains in popularity, more and more devices are created to be compatible. There is a good chance that all of your hardware devices will work by default after a Linux install. However to take full advantage of your system you may need to install extra packages such as 3D video drivers and codecs for your commonly used media. Some cheaper 'win-hardware' may not work well under Linux and you might have to wait a while for the latest game or Windows program to be supported through software like wine. If you fall into one of these categories, help to get your system up and running is always available."
+msgstr ""
+
+#: considerations.php:66
+msgid "Hopefully this information will equip you to make a balanced decision on whether Linux is for you. We feel the pros of Linux far outweigh the cons. With the wide range of Linux software applications available, many of which you can test already on Windows, you may find that you don't encounter most of the above issues."
+msgstr ""
+
+#: contact.php:3 credits.php:5 footer.php:4
+msgid "Credits"
+msgstr ""
+
+#: contact.php:7
+msgid "We would love to hear from you!"
+msgstr ""
+
+#: contact.php:8
+msgid ""
+"You may send me an <a href=\"mailto:chris@kororaa.org\">email</a>, or join our <a href=\"http://lists.makethemove.net/listinfo.c\n"
+"gi/general-makethemove.net\">mailing list</a>."
+msgstr ""
+
+#: credits.php:8
+msgid "Site inspiration:"
+msgstr ""
+
+#: credits.php:8
+msgid "and other"
+msgstr ""
+
+#: credits.php:8
+msgid "members"
+msgstr ""
+
+#: credits.php:9
+msgid "Concept design:"
+msgstr ""
+
+#: credits.php:10
+msgid "Site design:"
+msgstr ""
+
+#: credits.php:10
+msgid "and"
+msgstr ""
+
+#: credits.php:11
+msgid "Site content:"
+msgstr ""
+
+#: credits.php:12
+msgid "Artwork:"
+msgstr ""
+
+#: credits.php:19
+msgid "Translation:"
+msgstr ""
+
+#: credits.php:19
+msgid "French"
+msgstr ""
+
+#: credits.php:20
+msgid "Serbian Cyrillic"
+msgstr ""
+
+#: credits.php:22
+msgid "Serbian Latin"
+msgstr ""
+
+#: credits.php:23
+msgid "Spanish"
+msgstr ""
+
+#: data.php:2 data.php:13 index.php:28 software.php:2 software.php:39
+msgid "Why should I move?"
+msgstr ""
+
+#: data.php:5
+msgid "One of the major hurdles when converting from closed source software is compatibility. Companies which create their own closed source formats make it virtually impossible for anyone else to know how their formats work. Despite this, Linux is compatible with almost every data format in existence and there is generally a freely available program that will read your data. For example, Microsoft Office documents are supported in the <a target=\"_blank\" href=\"http://openoffice.org\">OpenOffice.org</a> suite and Adobe Photoshop files are supported in the <a target=\"_blank\" href=\"http://gimp.org\">Gimp</a>."
+msgstr ""
+
+#: data.php:7
+msgid "Linux supports and encourages the use of open source file formats. Currently the majority of documents are created by Microsoft Office, however these formats are closed source and proprietary. Using these formats puts you at the whim of Microsoft who can (and do) make their file formats incompatible with other applications, including older versions of Microsoft Office! Because these files are closed source, people are forced to purchase new versions of Microsoft Office. While some open source office suites can read and write Microsoft formats, the results are sometimes imperfect because we do not have the code to see how the formats work. Still Linux does a great job of working with Microsoft Office files and you will probably find you can use and swap them without issue. You can read more about this topic next in the section of this website, '<a href=\"considerations.php#msformats\">Other considerations</a>'."
+msgstr ""
+
+#: data.php:9
+msgid "As a result the free community has adopted a new <a target=\"_blank\"href=\"http://www.iso.org\">International Organization for Standarization</a> (ISO) approved XML based document standard (<a target=\"_blank\" href=\"http://www.iso.org/iso/en/commcentre/pressreleases/2006/Ref1004.html\">ISO26300</a>) from OASIS called '<a target=\"_blank\" href=\"http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office\">open document</a>'. This standard is freely available for anyone to learn and implement (yes, even Microsoft) because it is open source. Due to pressure applied by various Governments switching to this new open format, Microsoft was forced to support this format in their next version of Office. We are not sure to what degree they will support it, however OpenOffice.org already does. Aside from the new open document formats, there are many other formats you can use that are freely usable; HTML, PDF, and even plain text."
+msgstr ""
+
+#: data.php:11
+msgid "As the ISO states, <em>\"Organizations and individuals that store their data in the open format avoid being  locked in to a single software vendor, leaving them free to switch software if their current vendor goes out-of-business, raises its prices, changes its software, or alters its  licensing terms\"</em>. <br /><br />Organisations all around the world, including the National Archives of Australia, are switching their documents to this new format to ensure unrestricted access to digital information now and in the future. We encourage users to switch from using closed and dangerous proprietary formats to open and freely available formats, which will be around forever."
+msgstr ""
+
+#: footer.php:4 gallery.php:4 mailinglist.php:2
+msgid "Gallery"
+msgstr ""
+
+#: footer.php:4 gallery.php:2 mailinglist.php:4 wiki.php:2
+msgid "Mailing list"
+msgstr ""
+
+#: footer.php:4 mailinglist.php:2 wiki.php:4
+msgid "Wiki"
+msgstr ""
+
+#: footer.php:5
+msgid ""
+"This site is best viewed \n"
+"\t\t\tat a resolution of 1024x768 and is valid <a target=\"_blank\" href=\"http://validator.w3.org/check?uri=referer\">XHTML</a> and \n"
+"\t\t\t<a target=\"_blank\" href=\"http://jigsaw.w3.org/css-validator/check/referer\">CSS</a>. Version 1.0."
+msgstr ""
+
+#: footer.php:7
+msgid "<a href=\"legal.php\">Legal</a>."
+msgstr ""
+
+#: foss.php:2 foss.php:18 index.php:20 linux.php:4 software.php:2
+#: software.php:39
+msgid "What is Linux?"
+msgstr ""
+
+#: foss.php:4 index.php:16 linux.php:2 linux.php:23
+msgid "What is FOSS?"
+msgstr ""
+
+#: foss.php:6
+msgid "FOSS stands for 'Free and Open Source Software'. It is a movement started in 1983 by Richard Stallman and the <a target=\"_blank\" href=\"http://www.gnu.org/philosophy/philosophy.html\">Free Software Foundation</a> (FSF). 'Free' in this context refers to 'freedom' (as in free speech), not price (although FOSS also tends to be). As the FSF says <em>\"Free software is a matter of liberty not price\"</em> and this is an important distinction to make. Many pieces of software out there claim to be 'free', and I'm sure you have heard of terms like 'freeware' and 'shareware'. These types of software tend to be free (as in price) but not free (as in freedom)."
+msgstr ""
+
+#: foss.php:8
+msgid "All the software that you run on your computer has been created to work on your operating system. If you use Microsoft Windows, then the software has been 'packaged' to run on Windows. If you use Apple's OSX or even Linux then the same rule applies. Software that is 'packaged' and installed onto your computer generally exists in what is called 'binary' form or, as an 'executable'."
+msgstr ""
+
+#: foss.php:10
+msgid "Binary software is 'locked' in a sense because it is in computer language. This means that it is virtually impossible for humans to see how it operates and what it is actually doing! A good example of this is spyware and virus software. When these applications are installed onto a machine it is very hard to work out exactly what they are doing. They could be sending your banking information across the internet, or grabbing all of your important passwords. You just don't know, because they are locked."
+msgstr ""
+
+#: foss.php:12
+msgid "All computer programs are first written by humans in readable language, which is called 'source code'. Microsoft owns the source code to Windows and their products, as does Apple to theirs, etc. Think about a computer virus. If we had the source code to the virus, we would know <em>exactly</em> what it does, and could easily stop it. The virus creators, Microsoft, Apple and others do not release their code to the public, which means no-one can tell what their software is actually doing."
+msgstr ""
+
+#: foss.php:14
+msgid "There are software creators around the world however, who believe that everyone has the right to know exactly what the software on their computer is doing. Not only do they release 'packaged' versions of the software but more importantly, these people make the source code to their software freely available for everyone. This is called 'open source'. One great example of open source software is <a target=\"_blank\" href=\"http://mozilla.com/firefox\">Mozilla Firefox</a> a free web browser for Linux, Windows and OSX, which is safe and secure. For more examples of open source software, read on (or click <a href=\"software.php\">here</a> to visit now)."
+msgstr ""
+
+#: foss.php:16
+msgid "In essence you can <em>only</em> trust open source software, because it is freely available for everyone to read in human form and see exactly what the software does. For this reason governments, other agencies, schools and individuals all around the world are switching to the security of open source software (and so should you!)."
+msgstr ""
+
+#: gallery.php:6
+msgid "To help you decide what Linux distribution you might want to try (and so you can see what Linux looks like) we have a gallery containing screenshots of recommended Linux distributions (listed <a href=\"getstarted.php#trylinux\">here</a>) for you to view. We also have screenshots of free open source software (listed <a href=\"software.php\">here</a>) so you can see what they look like if you want to give them a try."
+msgstr ""
+
+#: gallery.php:8
+msgid "To proceed to the gallery please follow <a target=\"_blank\" href=\"http://gallery.makethemove.net\">this</a> link."
+msgstr ""
+
+#: gallery.php:10 getstarted.php:43
+msgid "Enjoy!"
+msgstr ""
+
+#: getinvolved.php:4 getstarted.php:2 getstarted.php:47
+msgid "How to get involved"
+msgstr ""
+
+#: getinvolved.php:5
+msgid "There are many ways in which you can become involved in Linux and the open source community. If you're interested in getting involved, then let me encourage you to do so!"
+msgstr ""
+
+#: getinvolved.php:7
+msgid "Spread the word!"
+msgstr ""
+
+#: getinvolved.php:8
+msgid "One of the best ways you can help is to <em>spread the word</em> about how great both Linux and open source software are. The more people we have involved the better it will be!"
+msgstr ""
+
+#: getinvolved.php:9
+msgid "Spread the word about this 'Make The Move' website, too. Post it on your blog, link it on your website, or email your friends and colleagues! Thanks!"
+msgstr ""
+
+#: getinvolved.php:11
+msgid "Assist a project"
+msgstr ""
+
+#: getinvolved.php:12
+msgid "You could help out with support on the forums and mailing lists of your favourite Linux distribution, or simply by reporting any problems you find. You might prefer to assist with your favourite application, or even help out with this 'Make The Move' project! We have a community driven <a href=\"http://wiki.makethemove.net\">wiki</a> and <a href=\"http://lists.makethemove.net/listinfo.cgi/general-makethemove.net\">mailing list</a> which need love and attention."
+msgstr ""
+
+#: getinvolved.php:14
+msgid "We are also looking for people to <em>translate</em> this website into their native language. If you're up for the challenge, have some suggestions for this website, or find errors please <a href=\"contact.php\">let me know</a>."
+msgstr ""
+
+#: getinvolved.php:16
+msgid "To start, pick something that you are passionate about or are interested in. Identify what your skills are and what you can offer to such a project or group. Then make yourself known by contacting the project and see what you can do to help."
+msgstr ""
+
+#: getinvolved.php:18
+msgid "Also consider joining up to your local <a href=\"http://www.linux.org/groups/\">Linux User Group</a>. It's a great way to help others, get help yourself and learn more."
+msgstr ""
+
+#: getinvolved.php:20
+msgid "Financial support"
+msgstr ""
+
+#: getinvolved.php:22
+msgid "Financial support is also a great way to help open source projects. As their software is made available free of charge, many projects rely on donations to further development. Every little bit helps."
+msgstr ""
+
+#: getstarted.php:6
+msgid "So you like the sound of Linux and free open source software? Want to know where to go from here?"
+msgstr ""
+
+#: getstarted.php:8
+msgid "Try some free open source software!"
+msgstr ""
+
+#: getstarted.php:9
+msgid "Well, if you would like to try out some software on your current Windows or OSX operating system you can! There are many open source applications available for you to try. Some are listed on the '<a href=\"software.php\">Software you might already use</a>' page. Follow the links on that page and download the software you want to try. They are often available for Windows and OSX."
+msgstr ""
+
+#: getstarted.php:11
+msgid "Try Linux!"
+msgstr ""
+
+#: getstarted.php:12
+msgid "Perhaps you want to try out Linux on your own computer? If you're ready to jump right in you could install it straight onto your computer's hard drive, or you could also test Linux on your computer from a 'Live CD' without installing it! A Live CD boots your computer into a Linux system running entirely from the CD in your computer's memory. It does not install to your hard drive so you can try Linux without needing to change your computer's current setup."
+msgstr ""
+
+#: getstarted.php:14
+msgid ""
+"As mentioned in the '<a href=\"linux.php\">What is Linux?</a>' section, there are many versions of Linux, called 'distributions'. In essence they are all the same but they can have different ways of doing things, such as the way they handle the installation of applications. Different distributions often come with different software by default and some come with different versions of that software. Artwork is often different as can be the layout and feel of the desktop. There are two main user interfaces (desktops) for Linux. One is called '<a target=\"_blank\" href=\"http://kde.org\">KDE</a>' and the other is '<a target=\"_blank\" href=\"http://gnome.org\">GNOME</a>'. Most distributions come with both, so you test and see which one you prefer to use. Our <a href=\"gallery.php\">gallery</a> contains screenshots of both, so you can see what they look like.<br /><br />\n"
+"\n"
+"You may like to try a few different Linux distributions until you find one you really like to use. A great resource for distribution news and information can be found at <a href=\"http://distrowatch.com\">Distrowatch.com</a>."
+msgstr ""
+
+#: getstarted.php:18
+msgid "Here is a list of some of the most popular distributions for you to investigate:"
+msgstr ""
+
+#: getstarted.php:20
+msgid "Installation only"
+msgstr ""
+
+#: getstarted.php:21
+msgid "Live CD"
+msgstr ""
+
+#: getstarted.php:22 getstarted.php:24
+msgid "Live CD available"
+msgstr ""
+
+#: getstarted.php:23
+msgid "Live DVD available"
+msgstr ""
+
+#: getstarted.php:27
+msgid "Remember that Linux can be installed on the same hard drive next to your Windows installation, so if you aren't ready to make the full jump you can test Linux and still have Windows available if you need it."
+msgstr ""
+
+#: getstarted.php:29
+msgid "Will Linux run on your computer?"
+msgstr ""
+
+#: getstarted.php:30
+msgid "As Linux has excellent hardware support, chances are that the Linux distribution you choose will run well on your computer. Many distributions provide 'minimum requirement' information and some can even check your computer and report on what will and won't work, before you install! Linux also tends to be less memory intensive than other operating systems, so it often works well even on older computers."
+msgstr ""
+
+#: getstarted.php:32
+msgid "If you have a very old computer however, there are special distributions designed for older machines. Two excellent distributions in this area are <a href=\"http://www.puppylinux.org/\">Puppy</a> and <a href=\"http://www.damnsmalllinux.org/\">Damn Small</a>. They are also Live CDs and can even run on computers with a 486 processor and only 16MB of ram!"
+msgstr ""
+
+#: getstarted.php:34
+msgid "We suggest you start by downloading a Live CD from one of the distributions listed above, burn it to a blank CD then reboot your computer. This will let Linux boot from the CD entirely in memory without touching your hard drive. It's a great way to see what Linux is all about and how it works. It will also let you see which distribution you might like the most."
+msgstr ""
+
+#: getstarted.php:36
+msgid "Documentation and Help"
+msgstr ""
+
+#: getstarted.php:37
+msgid "As Linux works differently to Windows, we recommend reading the documentation that comes with the distribution you choose to install. This will help you create a successful installation the very first time round. Also, don't be shy to ask for help on the distribution's mailing list, forums, wiki or other support network."
+msgstr ""
+
+#: getstarted.php:39
+msgid "Some Linux distributions like Ubuntu (via <a target=\"_blank\" href=\"http://www.canonical.com\">Canonical</a>) and Fedora (via <a target=\"_blank\" href=\"http://www.redhat.com\">Red Hat</a>) provide commercial support if you require it. We might also be able to help you here on our <a href=\"mailinglist.php\">mailing list</a> if you need assistance."
+msgstr ""
+
+#: getstarted.php:41
+msgid "On the previous <a href=\"action.php\">page</a> we have some screenshots of various Linux distributions and free open source software for you to view. We also intend to have some videos so you can see Linux in action."
+msgstr ""
+
+#: getstarted.php:45
+msgid "We hope you enjoy the world of Linux and free open source software!"
+msgstr ""
+
+#: header.php:62
+msgid "We welcome you to 'Make The Move'"
+msgstr ""
+
+#: index.php:5
+msgid "<em>Welcome!</em>"
+msgstr ""
+
+#: index.php:6
+msgid ""
+"<strong>Make The Move</strong> aims to present Linux and open source software as viable alternatives to the system on your computer.<br /><br />\n"
+"\t\tThese alternatives are both free (as in price) and free (as in freedom), and put <strong>you</strong> back in control of your system.<br /><br />\n"
+"\t\tThis site is designed to flow from the <a href=\"foss.php\">What is FOSS?</a> section, however you may skip straight to any other.<br /><br />\n"
+"\t\tEnjoy!"
+msgstr ""
+
+#: index.php:24
+msgid "FOSS you might already use"
+msgstr ""
+
+#: index.php:48
+msgid "How can I get involved?"
+msgstr ""
+
+#: legal.php:4
+msgid "Legal"
+msgstr ""
+
+#: legal.php:7
+msgid "This website is licensed under the <a target=\"_blank\" href=\"http://creativecommons.org/licenses/by/2.5/\">Creative Commons Attribution 2.5 License</a> and is copyright of Christopher Smart."
+msgstr ""
+
+#: legal.php:8
+msgid "All other trademarks and copyrights are property of their respective owners."
+msgstr ""
+
+#: linux.php:2 linux.php:23 software.php:4 why.php:2 why.php:44
+msgid "Software you might already use"
+msgstr ""
+
+#: linux.php:6
+msgid "Linux is an operating system for your computer, in a similar way that Microsoft Windows and Apple's OSX are operating systems for your computer. Linux is very different however (and we believe, better!)."
+msgstr ""
+
+#: linux.php:8
+msgid "Linux was started in 1992 by then university student Linus Torvalds, who released his software for <em>free</em>, including all of the <a href=\"foss.php\">source code</a>. Because Linus made his source code freely available, thousands of developers around the world have downloaded it, made changes and sent improvements back to him!"
+msgstr ""
+
+#: linux.php:10
+msgid ""
+"Because of this global collaboration effort, Linux is stable, extremely flexible and well supported. It is the fastest growing operating system in the world and it is freely available for <em>you</em> to install onto your computer!\n"
+"Sound great? It is!"
+msgstr ""
+
+#: linux.php:13
+msgid "Linux comes with thousands of free applications, which are maintained by thousands of volunteers around the world. These projects also release their source code, which means they too are 'open source'."
+msgstr ""
+
+#: linux.php:15
+msgid "<em>\"But how can they do all this for free?\"</em> I hear you ask. The Linux and open source communities do all this for free because they love the software, not because they try to make money from it. They are doing it for prestige, honour and because they believe in open source ideals."
+msgstr ""
+
+#: linux.php:17
+msgid "It is important to note that due to the nature of open source software (the ability to customise it however you like) there are many different version of Linux. This is great because you can find a version that suits you best! These different versions of Linux are called 'distributions'. This is because the creators of the various versions take Linux and make their own changes to it, add their own packages and then distribute it for free. It might sound complicated, but it's not. So don't worry, we'll help you get started on the right track!"
+msgstr ""
+
+#: linux.php:19
+msgid "We invite you to look further into Linux and welcome you to 'make the move' into an amazing new world."
+msgstr ""
+
+#: linux.php:21
+msgid "Please read on, or skip through to the '<a href=\"getstarted.php\">Get started!</a>' section if you're ready to jump right in!"
+msgstr ""
+
+#: mailinglist.php:6
+msgid "This 'Make The Move' project has a <a target=\"_blank\" href=\"http://lists.makethemove.net/listinfo.cgi/general-makethemove.net\">mailing list</a> available for you to join. The mailing list is a way to send through questions on email about Linux or free open source software. The volunteers on the list will do their best to help you!"
+msgstr ""
+
+#: mailinglist.php:8
+msgid "To subscribe, follow <a target=\"_blank\" href=\"http://lists.makethemove.net/listinfo.cgi/general-makethemove.net\">this</a> link and enter your information."
+msgstr ""
+
+#: mailinglist.php:10
+msgid "We look forward to hearing from you!"
+msgstr ""
+
+#: news.php:5
+msgid "News"
+msgstr ""
+
+#: news.php:7
+msgid "30 Jan 2007: Translation for Spanish goes live"
+msgstr ""
+
+#: news.php:8
+msgid "07 Jan 2007: Translation for Serbian Cyrillic and Serbian Latin goes live"
+msgstr ""
+
+#: news.php:9
+msgid "01 Jan 2007: Website version 1.0 launched!"
+msgstr ""
+
+#: software.php:5
+msgid "Did you know that you might already be using <a href=\"foss.php\">free open source software</a> without knowing it?"
+msgstr ""
+
+#: software.php:6
+msgid "Open source applications are not just for Linux, but run on a number of different operating systems including Windows and OSX."
+msgstr ""
+
+#: software.php:7
+msgid "Here is a list of some software and products that use free open source technology that you might already be using:"
+msgstr ""
+
+#: software.php:10
+msgid "File archiver (like Winzip) with high compression ratio"
+msgstr ""
+
+#: software.php:11
+msgid "Word processing program similar to Microsoft Word"
+msgstr ""
+
+#: software.php:12
+msgid "Web editor tool"
+msgstr ""
+
+#: software.php:13
+msgid "Sound editor"
+msgstr ""
+
+#: software.php:14
+msgid "3D graphics creation program"
+msgstr ""
+
+#: software.php:15
+msgid "Antivirus software"
+msgstr ""
+
+#: software.php:16
+msgid "Internet television application and media player"
+msgstr ""
+
+#: software.php:17
+msgid "Internet chat program supporting many different networks"
+msgstr ""
+
+#: software.php:18
+msgid "Raster image manipulation editor (like Adobe Photoshop)"
+msgstr ""
+
+#: software.php:19
+msgid "Vector graphics editor"
+msgstr ""
+
+#: software.php:20
+msgid "The flagship peer to peer (P2P) client on the Gnutella network"
+msgstr ""
+
+#: software.php:21
+msgid "Very popular web browser"
+msgstr ""
+
+#: software.php:22
+msgid "The sister email client of Firefox"
+msgstr ""
+
+#: software.php:23
+msgid "Media player"
+msgstr ""
+
+#: software.php:24
+msgid "Complete web authoring system"
+msgstr ""
+
+#: software.php:25
+msgid "Complete office suite compatible with Microsoft Office"
+msgstr ""
+
+#: software.php:26
+msgid "PDF creation program"
+msgstr ""
+
+#: software.php:27
+msgid "Page layout desktop publishing program"
+msgstr ""
+
+#: software.php:28
+msgid "Media player and video streaming solution"
+msgstr ""
+
+#: software.php:29
+msgid "Online community based encyclopaedia"
+msgstr ""
+
+#: software.php:30
+msgid "Network monitor application"
+msgstr ""
+
+#: software.php:33
+msgid "And many more..."
+msgstr ""
+
+#: software.php:35
+msgid "A project called '<a target=\"_blank\" href=\"http://www.theopencd.org/\">The Open CD</a>' provides a downloadable CD which includes many of the above pieces of software. You can even distribute freely to your friends!"
+msgstr ""
+
+#: software.php:37
+msgid "If you want to see what open source is all about but are not ready to 'make the move' all the way to Linux, why not download some or all of the above software for your operating system? When you discover how great they are, perhaps you will be ready to take the next step to an entirely free and open source operating system too!"
+msgstr ""
+
+#: table.php:5
+msgid "Alternatives to Windows Software"
+msgstr ""
+
+#: table.php:7
+msgid ""
+"This table was <em>not</em> created by the Make The Move project and is just a backup table in case the external site is not available.<br /><br />\n"
+"Full credit goes to Fiodor Sorex and others involved in maintaining the table at their website here:<br />\n"
+"<a target=\"_blank\" href=\"http://www.linuxrsp.ru/win-lin-soft/table-eng.html\">http://www.linuxrsp.ru/win-lin-soft/table-eng.html</a><br /><br />"
+msgstr ""
+
+#: why.php:4
+msgid "Why should I move to Linux?"
+msgstr ""
+
+#: why.php:6
+msgid ""
+"Ok, so your installation of Windows 'works fine' so why should you bother about Linux?<br />\n"
+"Good question."
+msgstr ""
+
+#: why.php:9
+msgid "There are many reasons why you might want to 'make the move' to Linux. Here are some of them:"
+msgstr ""
+
+#: why.php:11
+msgid "Viruses and Spyware"
+msgstr ""
+
+#: why.php:12
+msgid "Linux does not suffer from virus and spyware problems like Windows does. This is because of the secure way Linux was designed. Imagine not having to worry about getting a virus or opening that email attachment! Feel confident when using your computer."
+msgstr ""
+
+#: why.php:14
+msgid "Security and Stability"
+msgstr ""
+
+#: why.php:15
+msgid "Linux is designed to be stable, safe and secure. Due to the nature of open source software, any security flaws are fixed very quickly. The world's best programmers and thousands of people contribute to the programs you would use everyday and this means you get the best software packages available which are continually being improved. In the much less frequent case of an application either misbehaving or crashing, Linux itself rarely fails completely. This results in your computer normally remaining active and usable. No more 'reboot and try again' syndrome! Often these situations can be resolved quite quickly using the tools available within Linux rather than purchased in addition to the operating system itself. You can access helpful log files and if you have the skills even the source code of the software, not to mention there's a great community of users willing to help! Using Linux puts you in control of your computer and you can rest knowing your system is safe, secure, and the software will always exist. Security updates are always available and you don't have to worry about issues like Microsoft no-longer supporting your version of Windows and having to pay for an upgrade (and probably a new computer!)."
+msgstr ""
+
+#: why.php:17
+msgid "Package Management"
+msgstr ""
+
+#: why.php:18
+msgid "You can search for and install software on your Linux computer in a single convenient application. No searching the internet for the files you need or fumbling through the latest CD you got in the mail, just hit the install button to watch Linux download the required files from the internet and install them for you. Not only this, but once you have your system and applications installed, Linux keeps track of all of the application updates automatically, regardless of whether you have used those applications before or even knew that they were installed! So whether it's a security update, a new version of OpenOffice.org, or even the core Linux system itself, it is all handled seamlessly and easily. And, most importantly, being open source you know you can trust the software that is being installed!"
+msgstr ""
+
+#: why.php:20
+msgid "Features"
+msgstr ""
+
+#: why.php:21
+msgid "Linux is often at the forefront of computer technology and innovation. It is not bound by the same pressures as commercial entities and people are free to be creative and innovative. Some examples of where Linux has already included features before Windows are: fancy 3D desktop effects with <a target=\"_blank\" href=\"http://www.freedesktop.org/wiki/Software_2fXgl\">Xgl</a> and <a target=\"_blank\" href=\"http://beryl-project.org/\">beryl</a>; TV and media centre with <a target=\"_blank\" href=\"http://www.mythtv.org/\">mythtv</a>; desktop searching with <a target=\"_blank\" href=\"http://www.beagle-project.org\">beagle</a>; desktop widgets with <a target=\"_blank\" href=\"http://netdragon.sourceforge.net/\">superkaramba</a>; and many more. Plus, Linux is available for free right now!"
+msgstr ""
+
+#: why.php:23
+msgid "Compatibility"
+msgstr ""
+
+#: why.php:24
+msgid "Linux runs on anything. In fact it is the most widely supported operating system in the world! From brand new computers to old ones you were going to throw away there is always a Linux version for you. With Linux you can still browse websites all over the internet, watch movies, listen to your music, access your digital camera, use your scanner and much much more. You can also send emails and create documents that are compatible with Windows systems."
+msgstr ""
+
+#: why.php:26
+msgid "Free (as in freedom)"
+msgstr ""
+
+#: why.php:27
+msgid "Linux is free open source software. This might not mean much to you if you are not a programmer but even if you are just an end user it means you can <em>trust</em> the software (see the section on '<a href=\"foss.php\">What is FOSS?</a>' for more information). Free open source software is also gaining popularity all over the world and is on the rise. Now is a good time to start learning a valuable new skill set."
+msgstr ""
+
+#: why.php:29
+msgid "Free (as in price)"
+msgstr ""
+
+#: why.php:30
+msgid "You might think that your computer came with Windows for free, but you actually <em>did</em> pay for it (unless it's an illegal copy). Linux however, actually <em>is</em> free. Forget worrying about pirated software! From complete office suites to media programs and internet applications, the open source software that comes with Linux is not only fully featured, it doesn't cost a cent."
+msgstr ""
+
+#: why.php:32
+msgid "Easy and Intuitive"
+msgstr ""
+
+#: why.php:33
+msgid "A single 20 minute install of Linux will set up all your software <em>and</em> all your hardware in one go! You don't need to waste time searching for driver disks and going through the frustration of installing all your software. Once your Linux system is installed you will find it is very simple and easy to use. Linux is continually being improved and made more intuitive because people have the freedom to make changes to the software. These are then made available for everyone else to benefit from."
+msgstr ""
+
+#: why.php:35
+msgid "Choice and Control"
+msgstr ""
+
+#: why.php:36
+msgid "Linux also puts you in control by giving you choice. Choice about what software to run and how you run it. You don't have to worry about being stuck with one particular program or a set way of doing something. There are thousands of free computer programs available for you to install at the click of a button! Indeed you can even customise the interface to your liking, or choose one of the various Linux versions available that work differently out of the box. Linux is flexible and lets you create a system that works for you. Find or create something that suits you!"
+msgstr ""
+
+#: why.php:38
+msgid "Community"
+msgstr ""
+
+#: why.php:39
+msgid "Everyone using Linux does so because they <em>chose</em> to, not because they had to. People develop Linux because they have a passion for it, not because they do it for money or market share. This means things are done for the <em>right</em> reasons. Users are always willing to help others and Linux is a global collaboration effort. The Linux community is made up of people just like you and it's a great community to be a part of."
+msgstr ""
+
+#: why.php:41
+msgid "Fun!"
+msgstr ""
+
+#: why.php:42
+msgid "Linux is also FUN to use. Imagine actually enjoying using your computer again! There's just something great about running Linux on your computer, even computer savvy people will be impressed!"
+msgstr ""
+
+#: wiki.php:6
+msgid "A 'wiki' is a special type of website for sharing information and they are usually created and maintained by the community. The software for such a website is created by an open soure project called <a target=\"_blank\" href=\"http://www.mediawiki.org\">MediaWiki</a>. Perhaps the most famous wiki is <a target=\"_blank\" href=\"http://wikipedia.org\">wikipedia</a> which is a free, online, community based encyclopaedia."
+msgstr ""
+
+#: wiki.php:8
+msgid "This 'Make The Move' project also has a community driven wiki designed to help you with Linux and free open source software."
+msgstr ""
+
+#: wiki.php:10
+msgid "The wiki is a work in progress, but it is already online and available <a href=\"http://wiki.makethemove.net\">here</a>. If you feel you have something to contribute to the wiki, please feel free to add it!"
+msgstr ""
+
+#: wiki.php:12
+msgid "We hope the wiki is useful for you to help you 'make the move'."
+msgstr ""

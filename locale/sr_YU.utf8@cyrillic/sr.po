@@ -1,0 +1,820 @@
+# Serbian translations for the Make The Move website.
+# Copyright (C) 2007 Christopher Smart
+# This file is distributed under the same license as the Make The Move website.
+# Chris Smart <chris@kororaa.org>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Make The Move 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-02 16:08-0800\n"
+"PO-Revision-Date: 2007-01-04 15:10-0100\n"
+"Last-Translator: Тома Јанковић <tomaja@linuxo.org>\n"
+"Language-Team: Serbian <nvo@linuxo.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: about.php:3 contact.php:5 credits.php:3 footer.php:4
+msgid "Contact"
+msgstr "Контакт"
+
+#: about.php:5 contact.php:3 footer.php:4
+msgid "About"
+msgstr "О пројекту"
+
+#: about.php:7
+msgid "The 'Make The Move' project aims to present <a href=\"linux.php\">Linux</a> and <a href=\"foss.php\">free open source software</a> as viable alternatives to other systems and to provide helpful information for people considering to 'make the move'."
+msgstr "Пројекат 'Направи прави корак' има за циљ представљање <a href=\"linux.php\">Линукса</a> и <a href=\"foss.php\">слободног софтвера</a> као вредне и одговарајуће алтернативе другим системима као и да обезбеди корисне информације људима који разматрају да направе 'прави корак'."
+
+#: action.php:2 action.php:11 considerations.php:4 data.php:2 data.php:13
+#: index.php:36 table.php:3
+msgid "Other considerations"
+msgstr "Другe битне напомене"
+
+#: action.php:2 action.php:11 getinvolved.php:2 getinvolved.php:24
+#: getstarted.php:4 index.php:44
+msgid "Get started!"
+msgstr "Кренимо!"
+
+#: action.php:4 considerations.php:2 considerations.php:68 getstarted.php:2
+#: getstarted.php:47 index.php:40
+msgid "See it in action!"
+msgstr "Видите га у акцији!"
+
+#: action.php:6
+msgid "Screenshots of various Linux distributions and free open source software are available here at our <a target=\"_blank\" href=\"http://gallery.makethemove.net/\">gallery</a>."
+msgstr "Снимци екрана из различитих Линукс дистрибуција и слободног софтвера отвореног кода се могу погледати на нашој <a target=\"_blank\" href=\"http://gallery.makethemove.net/\">галерији</a>."
+
+#: action.php:8
+msgid ""
+"We are also getting ready to prepare some simple videos and to help you 'make the move'.<br /><br />\n"
+"Stay tuned!"
+msgstr ""
+"Ми такође већ припремамо одређени број видео фајлова који вам могу помоћи да 'направите прави корак'.<br /><br />\n"
+"Останите у току!"
+
+#: considerations.php:2 considerations.php:68 data.php:4 index.php:32
+#: why.php:2 why.php:44
+msgid "What about my data?"
+msgstr "А шта је са мојим подацима?"
+
+#: considerations.php:6
+msgid "No operating system is perfect, and Linux is no exception. If it was perfect it wouldn't keep improving!"
+msgstr "Ниједан опреративни систем није савршен, па и Линукс није изузетак. А и да је савршен, не би се даље развијао!"
+
+#: considerations.php:8
+msgid "You might encounter some issues when moving to Linux so we want to let you know what you might encounter so you can make an informed decision."
+msgstr "Можете наићи на одређене проблеме при преласку на Линукс па желимо да вас одмах упознамо са њима да би могли да донесете исправну одлуку."
+
+#: considerations.php:10
+msgid "Windows Software"
+msgstr "Windows софтвер"
+
+#: considerations.php:11
+msgid "It is likely that much of your existing Windows software will not run on Linux natively. As discussed in the '<a href=\"foss.php\">What is FOSS?</a>' section of this website, Linux is a completely different operating system and as such only software written for it will work. Fortunately there are hundreds of thousands of free software packages available for a whole host of purposes that may replace the need for your current software collection. A table of alternatives can be found <a target=\"_blank\" href=\"http://www.linuxrsp.ru/win-lin-soft/table-eng.html\">here</a> (note: external website, we maintain a backup <a href=\"table.php\">here</a>)."
+msgstr "Врло је вероватно да ваш постојећи Windows софтвер неће моћи да ради на Линуксу, бар не у старту. Као што смо већ расправили у '<a href=\"foss.php\">Шта је то FOSS?</a>' поглављу на овом сајту, Линукс је потпуно другачији оперативни систем па на њему може радити само софтвер који је креиран за њега. Срећом постоје стотине хиљада пакета слободног софтвера из свих области који могу заменити софтвер који тренутно користите. Табела са алтернативним софтвером се може погледати ако кликнте <a target=\"_blank\" href=\"http://www.linuxrsp.ru/win-lin-soft/table-eng.html\">овде</a> (напомена: ради се о екстерном сајту, ми само одржавамо копију табеле <a href=\"table.php\">овде</a>)."
+
+#: considerations.php:13
+msgid "In some cases you may find that due to business or other reasons you have a particular software product that you absolutely must use and that there is no Linux equivalent. Don't despair, it may still be possible to 'make the move'."
+msgstr "У неким случајевима, услед пословних или других захтева, морате да користите тачно одређени софтвер за који не постоји Линукс замена. Не очајавајте, још увек можете направити 'прави корак'."
+
+#: considerations.php:15
+msgid "Windows Emulators"
+msgstr "Windows емулатори"
+
+#: considerations.php:17
+msgid "There are some programs for Linux that let you run your Windows software under Linux via an 'emulation' method. Some of these include <a href=\"http://www.vmware.com\">Vmware</a>, <a href=\"http://www.win4lin.com/\">Win4lin</a>, <a href=\"http://bochs.sourceforge.net/\">bochs</a>, <a href=\"http://www.xensource.com/\">xen</a> and <a href=\"http://www.qemu.com/\">qemu</a>. You will need your own Windows license key and installation media as these types of software actually do a full installation of Windows under Linux. You can then start Windows like a normal Linux application and run your software under Windows itself."
+msgstr "Постоје одређени програми на Линуксу који вам могу омогућити да покрећете свој Windows софтвер под Линуксом преко метода 'емулације'. Неки од ових програма су <a href=\"http://www.vmware.com\">Vmware</a>, <a href=\"http://www.win4lin.com/\">Win4lin</a>, <a href=\"http://bochs.sourceforge.net/\">bochs</a>, <a href=\"http://www.xensource.com/\">xen</a> и <a href=\"http://www.qemu.com/\">qemu</a>. Биће вам потребан инсталациони диск за Windows, његова лиценца јер овакви програми уствари изводе комплетну инсталацију Windows-а под Линуксом. Након тога можете покретати Windows као стандардну Линукс апликацију а затим и покретати софтвер под самим Windows-ом."
+
+#: considerations.php:19
+msgid "If emulation is not your style you can always run Linux side by side on your computer with your Windows installation and reboot into which ever one you need to use."
+msgstr "Уколико емулација није ваш стил увек имате могућност да користите Линукс на рачунару упоредо са вашом инсталацијом Windows-а где приликом рестарта можете одабрати који од њих желите да покренете."
+
+#: considerations.php:21
+msgid "There are some other programs which provide a compatibility layer for Linux to allow you to run Windows software without emulation. One such program is called <a target=\"_blank\" href=\"http://winehq.org\">wine</a>. Wine is not an emulator but mimics many of the Windows system functions (you do not need Windows installed on your computer). This allows you to install your Windows software through wine and then run it under Linux. Not all Windows software works using this method, but many (such as the Australian Tax Office's 'eTax') work with minimum effort. There is a good resource online for which applications work under wine, <a target=\"_blank\" href=\"http://appdb.winehq.org/\">here</a>."
+msgstr "Са друге стране постоје програми који обезбеђују компатибилност за Линукс која омогућава да се покрећу Windows апликације без емулације. Један од оваквих програма се зове <a target=\"_blank\" href=\"http://winehq.org\">wine</a>. Wine није емулатор већ опонаша многе функције Windows система (није вам потребан инсталиран Windows на рачунару). Ово вам омогућава да инсталирате свој Windows софтвер кроз wine и покрећете га на Линуксу. На овај начин не могу да раде све Windows апликације, али многе могу (као што је Аустралијски програм за обрачун пореза 'eTax') уз минимум напора. Постоји добар извор информација на интернету о томе које апликације раде под wine-ом, а можете га погледати <a target=\"_blank\" href=\"http://appdb.winehq.org/\">овде</a>."
+
+#: considerations.php:23
+msgid "Although wine allows you to install many Windows applications they can be tricky to get working. There is also a commercial product based on wine called <a href=\"http://codeweavers.com\">CrossOver</a> created by Codeweavers. This software allows you to easily install many common types of Windows software such as: Microsoft Office (versions 2003, XP, 2000 and 97), Microsoft Project, Microsoft Visio, Adobe Photoshop, Lotus Notes, Quicken, Shockwave Director, QuickTime and many more, all under Linux. It is available to purchase online and provides you with support to help get your software running."
+msgstr "Иако вам wine омогућава да инсталирате бројне Windows аплиакције понекада могу бити проблематичне у раду. Постоје и комерцијални производи базирани на wine-у попут <a href=\"http://codeweavers.com\">CrossOver-а</a> креираног од стране Codeweavers-а. Овај софтвер вам омогућава да веома лако инсталирате најчешће коришћени Windows софтвер попут: Microsoft Office (верзије 2003, XP, 2000 and 97), Microsoft Project, Microsoft Visio, Adobe Photoshop, Lotus Notes, Quicken, Shockwave Director, QuickTime и многе друге, и све то под Линуксом. Можете га купити online и омогућава вам и подршку и помоћ приликом инсталације и покретања софтвера."
+
+#: considerations.php:25
+msgid "Remember there are usually excellent open source alternatives to the Windows software you want to use, but if you absolutely have to run it, then one of the options above could be the answer."
+msgstr "Не заборавите да обично постоје сјајни алтернативни програми отвореног кода за Windows софтвер који тренутно користите, али ако сте приморани да користите одређени програм, нека од горе наведених метода би могла да буде одговор."
+
+#: considerations.php:27
+msgid "Games"
+msgstr "Игрице"
+
+#: considerations.php:28
+msgid "Like other Windows based software mentioned above, most computer games will not run natively under Linux. Fortunately some game companies are beginning to improve these matters. There are a few however, like the Unreal Tournament and Quake series of games, which already run perfectly under Linux. The main reason for this is that they use the OpenGL 3D rendering engine, which is open source and runs under Linux natively. Many other games use Microsoft's closed source DirectX 3D engine which will only run on Windows. Once again wine comes to the rescue here as many games will run through it."
+msgstr "Као и већина другог Windows софтвера који смо поменули горе, већина рачунарских игрица неће радити на Линуксу, бар не одмах. Срећом, неке компаније које производе игрице су почеле да исправљају овај проблем. Са друге стране, постоје и игрице које се одмах могу покренути на Линуксу попут Unreal Tournament-а или игрица из Quake серијала. Главни разлог овоме јесте да оне користе OpenGL 3D машину за рендеровање, која представља софтвер отвореног кода и користити се на Линуксу. Многе друге игрице користе Microsoft-ов власничку DirectX 3D машину која ради само на Windows-у. Још једном wine долази као спасилац јер се многе игрице могу покренути преко њега."
+
+#: considerations.php:30
+msgid "As with 'Crossover' above, there is a commercial product based on wine called <a href=\"http://cedega.com\">Cedega</a> by TransGaming Technologies, which specialises in supporting almost two thousands of Windows games under Linux. Many popular games are supported such as Half Life 2, Counter Strike, Battlefield, Medal of Honor, Call of Duty, StarCraft, Civilization, Grand Theft Auto, Heroes of Might and Magic, EVE, EverQuest, World of Warcraft and many others. More information including a database of supported games can be found <a target=\"_blank\" href=\"http://transgaming.org/gamesdb/\">here</a>."
+msgstr "Слично горе поменутом 'Crossover'-у, постоји комерцијални производ базиран на wine-у под именом <a href=\"http://cedega.com\">Cedega</a> којег креира  TransGaming Technologies, и који је специјализован за покретање преко две хиљаде Windows игрица под Линуксом. Многе популарне игрице попут Half Life 2, Counter Strike, Battlefield, Medal of Honor, Call of Duty, StarCraft, Civilization, Grand Theft Auto, Heroes of Might and Magic, EVE, EverQuest, World of Warcraft и многих дригих. Више информација укључујући и базу података са подржаним игрицама можете пронаћи  <a target=\"_blank\" href=\"http://transgaming.org/gamesdb/\">овде</a>."
+
+#: considerations.php:32
+msgid "Of course Linux comes with thousands of native games, ranging from arcade style to board games, strategy, role playing and even 3D first person shooters. Plenty to keep the children (and the child in you) well entertained!"
+msgstr "Наравно, за сам Линукс постоје на хиљаде игрица прављених за њега, од аркада преко игрица на табли, стратегија па чак и 3D пуцачина у првом лицу. Сасвим довољно материјала да задржи пажњу деце (и вас самих) уз добру забаву!"
+
+#: considerations.php:34
+msgid "Microsoft Office Compatibility"
+msgstr "Компатибилност са Microsoft Office-ом"
+
+#: considerations.php:35
+msgid "We also discuss Microsoft Office formats in the '<a href=\"data.php\">What about my data?</a>' section of this website. You may wish to also read it if you haven't already."
+msgstr "Већ смо расправљали о Microsoft Office форматима у поглављу '<a href=\"data.php\">Шта је са мојим подацима?</a>' на овом веб сајту. Било би добро да га прочитате уколико већ нисте."
+
+#: considerations.php:37
+msgid "Essentially, the file format for Microsoft Office documents is closed source and proprietary. Although Word and Excel files are the pseudo-standard in many business contexts, it is important to understand that the way in which the Microsoft Office suite of applications store your data on your computer's hard drive is not a standard."
+msgstr "У основи, формати фајлова за Microsoft Office документе су власнички и затвореног кода. Иако су Word и Excel фајлови такорећи постали неписани стандард када је у питању пословни контекст, важно је разумети начин на који Microsoft Office пакет апликација смешта ваше податке на хард диск вашег рачунара и да он није стандардан."
+
+#: considerations.php:39
+msgid "Fortunately, there are a number of excellent Linux applications which are great replacements for all of Microsoft Office's functionality. Even better, some programs like the <a href=\"http://openoffice.org\">OpenOffice.org</a> suite can even read and write Microsoft Office files. As of version 2.0.4, OpenOffice.org supports Microsoft Office 95, 97, 2000, XP and also 2003 formats (as well as many others including export to PDF). While free open source software file formats exist for most things you are likely to want to do on your computer, you may experience problems when swapping complex Microsoft Office files (such as those with many macros), but it is always improving. As Microsoft owns the source code to these formats they can (and do) change the format with new releases. The default file format for OpenOffice.org however follows the recognised international open document standard <a target=\"_balnk\" href=\"http://www.iso.org/iso/en/commcentre/pressreleases/2006/Ref1004.html\">ISO26300</a> and thus will not change to be incompatible in the future. This means your documents are safe and secure no matter what software you choose to run down the track. Comforting to know, isn't it?"
+msgstr "Срећом, постоје одличне Линукс апликације које представљају сјајне замене за све функције Microsoft Office-а. Што је још боље, неки програми попут  <a href=\"http://openoffice.org\">OpenOffice.org</a> пакета могу чак да читају и снимају у формату Microsoft Office фајлова. Од верзије 2.0.4, OpenOffice.org подржава Microsoft Office 95, 97, 2000, XP и 2003 формате (као и многе друге попут PDF формата). И док ће формати отвореног кода бити сасвим довољни да задовоље све ваше потребе на рачунару, могу се јавити одређени проблеми приликом замене сложених Microsoft Office фајлова (попут оних који користе пуно макроа), али се то константно усавршава. Како Microsoft поседује изворни код ових својих формата они могу (и већ то и раде) да промене формат у наредним верзијама програма. Основни формат фајлова у OpenOffice.org следи признате међународне стандарде за отворене документе <a target=\"_balnk\" href=\"http://www.iso.org/iso/en/commcentre/pressreleases/2006/Ref1004.html\">ISO26300</a> и стога његове промене неће условити некомпатибилност у будућности. Ово значи да су ваши документи сигурни и безбедни без обзира који софтвер користите. Прилично охрабрујуће, зар не ?"
+
+#: considerations.php:42
+msgid "If you require Microsoft Office support under Linux, OpenOffice.org should do almost everything you require (and more). You can also try out OpenOffice.org for yourself under Windows!"
+msgstr "Уколико вам је потреба подршка за Microsoft Office под Линуксом, OpenOffice.org би требао да задовољи готово све што захтевате (па и више од тога). Такође можете испробати ОpenOffice.org и сами на Windows-у!"
+
+#: considerations.php:44
+msgid "Hardware"
+msgstr "Хардвер"
+
+#: considerations.php:45
+msgid "Linux supports more hardware devices out of the box than any other operating system, however there is a range of devices that do not work easily. Most of these are what is called 'win-hardware'. These devices have a software component which needs to be installed on Windows in order for them work. As Linux does not run Windows software these devices are often hard to configure. Example devices include some wireless cards, some printers, and some internal dialup modems. In many cases the open source community has written their own Linux drivers for these devices, however in some cases the manufacturer may not release sufficient information to make this possible. Fortunately more and more manufacturers are supporting Linux, so hopefully this issue will soon be in the past."
+msgstr "Линукс подржава већину хардверских уређаја у старту и то боље од било ког другог оперативног система, међутим постоје и уређаји који неће прорадити тако лако. Већина оваквих компоненти се називају 'win-хардвером'. Ови уређају имају софтверску компоненту која мора да се инсталира на Windows да бу уређај могао да ради. Како Линукс не покреће Windows софтвер ови уређаји се обично тешко подешавају. Неки од примера оваких уређаја су неке картице за бежични интернет, неки штампачи и неки модеми. У многим случајевима заједница отвореног кода је развила сопствене Линукс драјвере за ове урађаје, али је у неким случајевима то је немогуће јер произвођач није доставио довољно података. Срећом, све више и више произвођача подржава Линукс, па се надамо да ће ови проблеми убрзо отићи у прошлост."
+
+#: considerations.php:47
+msgid "Linux supports almost every video card used today; however it may not always be able to take advantage of the 3D features of the card in a default installation. For example, while Linux supports NVIDIA cards well in the 2D arena, there is no open source 3D driver available for them. NVIDIA does provide excellent Linux drivers for their cards however, which take full advantage of their 3D features. You may need to obtain such drivers separately from the manufacturer (they are usually available on their website) to install them on your computer. This is due to licensing restrictions which prevent Linux distributions including them by default. Installation under various Linux distributions is usually well supported though and there are always people willing to help."
+msgstr "Линукс данас подржава већину видео и графичких картица; ипак можда неће увек бити могуће искористити пуни потенцијал 3D могућности ваше картице одмах након инсталације. На пример, иако Линукс веома добро подржава NVIDIA картице у 2D подручју, не постоје доступни 3D драјвери отвореног кода. Сама NVIDIA креира одличне Линукс драјвере за своје картице, које омогућавају потпуно коришћење 3D могућности. Може се десити да те драјвере морати сами  преузети од произвођача (обично се могу наћи на њиховим веб сајтовима) да би их инсталирали на ваш рачунар. Ово је због тога што ограничења у лиценци онемогућавају Линукс дистрибуције да укључе ове драјвере по default-у. Инсталација различитих Линукс дистрибуција је добро подржана а увек постоје и људи који вам могу помоћу уколико се појави проблем при њиховој инсталацији."
+
+#: considerations.php:49
+msgid "Codecs"
+msgstr "Кодеци"
+
+#: considerations.php:50
+msgid "'Codec' stands for 'compressor/decompressor' and relates to the software component which translates video and/or audio between its compressed (stored) form and it's uncompressed form (for display). QuickTime is an example of such a codec."
+msgstr "'Кодек' представља 'компресор/декопресор' и односи се на софтверску компоненту која преводи видео и/или аудио из компресованог (смештајног) облика у некомпресовани облик (за приказивање). QuickTime је један пример таквог кодека."
+
+#: considerations.php:52
+msgid "Unfortunately many codecs for common video (and audio) formats have not been written for Linux. However there are packages such as win32codecs which allow Linux to use the Windows codecs to access these formats and play all your videos! Again, due to licensing restrictions many Linux distributions do not include these by default. These codecs are usually quite easy to install though, and there is usually lots of information on how to install them under your chosen version of Linux."
+msgstr "На жалост, многи кодеци за најпопуларније видео (и аудио) формате нису писани за Линукс. Међутим, постоје софтверски пакети попут win32codecs који омогућавају Линуксу да користи Windows кодеке за приступ овим форматима и омогућавају да репродукује ваш видео материјал! Опет, услед услова лиценци многе Линукс дистрибуције не укључују ове пакете по default-у. Ове кодеке је обично лако инсталирати, а такође постоји и велики број информација на интернету о томе како их инсталирати на вашу верзију Линукса."
+
+#: considerations.php:54
+msgid "Naturally, the open source community has its own free open source video and audio codecs. Perhaps two of the most well known are the audio codec called <a href=\"http://www.xiph.org/ogg/\">oggvorbis</a> and the video codec called <a href=\"http://www.xvid.org/\">xvid</a>. These codecs are not only open source, they are patent free. You can feel confident encoding your music and videos using these codecs and of course under Linux you don't have to worry about issues like <a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Digital_rights_management\">digital rights management</a>."
+msgstr "Наравно, заједница отвореног кода има своје сопствене видео и аудио кодеке. Можда и два најпознатија су аудио кодек <a href=\"http://www.xiph.org/ogg/\">oggvorbis</a> и видео кодек  <a href=\"http://www.xvid.org/\">xvid</a>. Ови кодеци не само што су отвореног кода, већ и не подлежу било којим патентима. Можете без проблема кодирати свој музички и видео материјал коришћењем ових кодека на Линуксу без бриге о <a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Digital_rights_management\">заштићеним дигиталним правима</a>."
+
+#: considerations.php:56
+msgid "Encrypted DVDs"
+msgstr "Заштићени DVD дискови"
+
+#: considerations.php:57
+msgid "When the DVD format was created it included a form of encryption that was designed to avoid unauthorised copying.  Software DVD players were then each given a decryption key to work with all DVDs.  For various reasons, official Linux DVD software players were not available. As it turned out, the encryption design had some issues and it was discovered that a key was not necessary to access the DVD information."
+msgstr "Када је креиран DVD формат у њега је укључен и посебан вид заштите који је убачен ради заштите од неауторизованог копирања. Софтверским DVD плејерима су дати кључеви за декрипцију који раде са свим DVD-овима. Из различитих разлога, званични Линуксови DVD плејери нису били доступни. Како је на крају испало, откривено је да постоје пропусти у овој заштити и да кључеви уопште нису потребни за приступ садржају DVD-а."
+
+#: considerations.php:59
+msgid "There is a package called libdvdcss which can enable most Linux media players to decrypt and display your DVDs. The use of this package may not be legal in all countries even when used with your own, purchased DVDs. This is due to patent restrictions and digital copyright laws. As such, it is not included with most Linux distributions. If it is legal to use it in your location then installing it is usually pretty easy, but again there are always people willing to help you if needed."
+msgstr "Постоји пакет под именом libdvdcss који омогућава да већина Лунукс мултимедијалних плејера декриптује и прикаже ваше DVD дискове. Коришћење овог пакета може бити нелегално у неким земљама чак и ако га користите за своје, купљене DVD-ове. Разлог овоме је ограничење у патентима и заштити дигиталних права. Као такав, он није укључен у већини Линукс дистрибуција. Уколико је пак у вашој земљи он дозвољен његова инсталација је веома једноставна, а ако имате проблема при инсталацији већ ће се наћи неко ко вам може помоћи."
+
+#: considerations.php:61
+msgid "In Summary"
+msgstr "Сажетак"
+
+#: considerations.php:62
+msgid "Linux has a great range of software applications to meet the software needs you may have. Furthermore there is wine, CrossOver, Cedega and other applications available to provide Windows compatibility for many other software products you may wish to use."
+msgstr "Линукс има сјајан избор апликација које могу задовољити ваше потребе. Такође постоје и друге апликације попут wine, CrossOver, Cedega које могу да вам омогуће компатибилност са Windows-ом и његовим софтвером који желите да и даље користите."
+
+#: considerations.php:64
+msgid "As Linux gains in popularity, more and more devices are created to be compatible. There is a good chance that all of your hardware devices will work by default after a Linux install. However to take full advantage of your system you may need to install extra packages such as 3D video drivers and codecs for your commonly used media. Some cheaper 'win-hardware' may not work well under Linux and you might have to wait a while for the latest game or Windows program to be supported through software like wine. If you fall into one of these categories, help to get your system up and running is always available."
+msgstr "Како Линукс добија на популарности, све је више и више хардверских компоненти компатибилно. Постоји велика вероватноћа да ће сви ваши хардверски уређаји радити одмах након инсталације Линукса. Да би ипак искористили све предности вашег система можда ћете морати да инсталирате додатне софтверске пакете као што су 3D видео драјвери и кодеци за ваше најачешће коришћене медије. Може се десити да неки јефтини 'win-хардвер' неће радити добро, или да ћете морати да сачекате мало да би могли да покренете најновију игрицу или Windows програм преко wine-а. Уколико спадате у неку од ових категорија, помоћ око подешавања вашег система увек можете добити."
+
+#: considerations.php:66
+msgid "Hopefully this information will equip you to make a balanced decision on whether Linux is for you. We feel the pros of Linux far outweigh the cons. With the wide range of Linux software applications available, many of which you can test already on Windows, you may find that you don't encounter most of the above issues."
+msgstr "Надамо се да ће ова информација бити довољно добра да донесете исправну одлуку о томе да ли је Линукс за вас. Ми мислимо да позитивне ствари у Линуксу увелико превазилазе негативне. Са широким спектром доступних Линукс апликација, од којих многе можете испробати и на Windows-у, може се десити да ћете избећи већину горе поменутих проблема."
+
+#: contact.php:3 credits.php:5 footer.php:4
+msgid "Credits"
+msgstr "Захвалнице"
+
+#: contact.php:7
+msgid "We would love to hear from you!"
+msgstr "Желели би да чујемо и вас!"
+
+#: contact.php:8
+msgid ""
+"You may send me an <a href=\"mailto:chris@kororaa.org\">email</a>, or join our <a href=\"http://lists.makethemove.net/listinfo.c\n"
+"gi/general-makethemove.net\">mailing list</a>."
+msgstr ""
+"Можете ми послати <a href=\"mailto:chris@kororaa.org\">ел.писмо(email)</a>, или нам се придружити на нашој <a href=\"http://lists.makethemove.net/listinfo.c\n"
+"gi/general-makethemove.net\">листи ел.поште</a>."
+
+#: credits.php:8
+msgid "Site inspiration:"
+msgstr "Инспирација за сајт:"
+
+#: credits.php:8
+msgid "and other"
+msgstr "и други"
+
+#: credits.php:8
+msgid "members"
+msgstr "чланови"
+
+#: credits.php:9
+msgid "Concept design:"
+msgstr "Концепт дизајна:"
+
+#: credits.php:10
+msgid "Site design:"
+msgstr "Дизајн сајта:"
+
+#: credits.php:10
+msgid "and"
+msgstr "и"
+
+#: credits.php:11
+msgid "Site content:"
+msgstr "Садржај сајта:"
+
+#: credits.php:12
+msgid "Artwork:"
+msgstr "Графички дизајн:"
+
+#: credits.php:19
+msgid "Translation:"
+msgstr "Превод:"
+
+#: credits.php:19
+msgid "French"
+msgstr "Француски"
+
+#: credits.php:20
+msgid "Serbian Cyrillic"
+msgstr "Српски"
+
+#: credits.php:22
+msgid "Serbian Latin"
+msgstr "Српска латиница"
+
+#: data.php:2 data.php:13 index.php:28 software.php:2 software.php:39
+msgid "Why should I move?"
+msgstr "Зашто бих прешао на Линукс?"
+
+#: data.php:5
+msgid "One of the major hurdles when converting from closed source software is compatibility. Companies which create their own closed source formats make it virtually impossible for anyone else to know how their formats work. Despite this, Linux is compatible with almost every data format in existence and there is generally a freely available program that will read your data. For example, Microsoft Office documents are supported in the <a target=\"_blank\" href=\"http://openoffice.org\">OpenOffice.org</a> suite and Adobe Photoshop files are supported in the <a target=\"_blank\" href=\"http://gimp.org\">Gimp</a>."
+msgstr "Једна од највећих бољки приликом преласка са софтвера за затвореним изворним кодом је компатибилност. Компаније које креирају своје формате су их направиле тако да је скоро немогуће видети како они раде. Упркос овоме, Линукс је компатибилан са већином формата за податке који тренутно постоје и обично постоји слободно доступан програм помоћу којег можете прочитати те податке. На пример, Microsoft Office документи су подржани од стране <a target=\"_blank\" href=\"http://openoffice.org\">OpenOffice.org</a> пакета а Adobe Photoshop фајлови подржани од стране <a target=\"_blank\" href=\"http://gimp.org\">Гимпа</a>."
+
+#: data.php:7
+msgid "Linux supports and encourages the use of open source file formats. Currently the majority of documents are created by Microsoft Office, however these formats are closed source and proprietary. Using these formats puts you at the whim of Microsoft who can (and do) make their file formats incompatible with other applications, including older versions of Microsoft Office! Because these files are closed source, people are forced to purchase new versions of Microsoft Office. While some open source office suites can read and write Microsoft formats, the results are sometimes imperfect because we do not have the code to see how the formats work. Still Linux does a great job of working with Microsoft Office files and you will probably find you can use and swap them without issue. You can read more about this topic next in the section of this website, '<a href=\"considerations.php#msformats\">Other considerations</a>'."
+msgstr "Линукс подржава и охрабрује уоптребу формата отвореног кода. Тренутно се већина документа креира на Microsoft Office програмима, међутим ови формати су власнички и затвореног програмског кода. Коришћењем ових формата вас оставља на милост и немилост Microsoft-а који може (и већ то ради) да своје формате учини некомпатибилним са другим апликацијама укључујући и старије верзије Microsoft Office-а! Због тога што су ови фајлови затвореног изворног кода, људи су приморани да купују нове верзије Microsoft Office-а. Док неки office пакети могу читају и пишу у Microsoft форматима, резултати су понекада несавршени јер немамо приступ изворном коду да би могли да видимо како они раде. Међутим, Линукс завршава сјајан посао у раду са Microsoft Office фајловима па ћете моћи да их користите и замените без проблема. О овој теми можете више прочитати у поглављу , '<a href=\"considerations.php#msformats\">Остале битне напомене</a>'."
+
+#: data.php:9
+msgid "As a result the free community has adopted a new <a target=\"_blank\"href=\"http://www.iso.org\">International Organization for Standarization</a> (ISO) approved XML based document standard (<a target=\"_blank\" href=\"http://www.iso.org/iso/en/commcentre/pressreleases/2006/Ref1004.html\">ISO26300</a>) from OASIS called '<a target=\"_blank\" href=\"http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office\">open document</a>'. This standard is freely available for anyone to learn and implement (yes, even Microsoft) because it is open source. Due to pressure applied by various Governments switching to this new open format, Microsoft was forced to support this format in their next version of Office. We are not sure to what degree they will support it, however OpenOffice.org already does. Aside from the new open document formats, there are many other formats you can use that are freely usable; HTML, PDF, and even plain text."
+msgstr "Као резултат слободна заједница је усвојила нови стандард <a target=\"_blank\"href=\"http://www.iso.org\">Међународне Организације за Стандарде</a> (ISO) базиран на XML стандарду (<a target=\"_blank\" href=\"http://www.iso.org/iso/en/commcentre/pressreleases/2006/Ref1004.html\">ISO26300</a>) који је урадио OASIS под називом '<a target=\"_blank\" href=\"http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office\">отворени документ</a>'. Овај стандард је слободно доступан свакоме ко жели да га научи и имплементира (да, чак и Microsoft-у) јер се ради о софтверу отвореног кода. Услед притиска који је уследио од разних влада које прелазе на овај нови отворени формат, Microsoft је био приморан да подржи овај формат у следећој верзији Office-а. Нисмо сигурни до које мере ће га подржати, али  OpenOffice.org већ постоји. Поред формата отводеног документа, постоји и много других формата који су слободно доступни попут: HTML, PDF, или чак plain text формата."
+
+#: data.php:11
+msgid "As the ISO states, <em>\"Organizations and individuals that store their data in the open format avoid being  locked in to a single software vendor, leaving them free to switch software if their current vendor goes out-of-business, raises its prices, changes its software, or alters its  licensing terms\"</em>. <br /><br />Organisations all around the world, including the National Archives of Australia, are switching their documents to this new format to ensure unrestricted access to digital information now and in the future. We encourage users to switch from using closed and dangerous proprietary formats to open and freely available formats, which will be around forever."
+msgstr "Како ISO тврди, <em>\"Организације и појединци који смештају своје податке у отворени формат избегавају везаност за само једног произвођача софтвера, остављајући их слободним да пређу на други софтвер уколико њихов тренутни произвођач софтвера бакротира, подигне своје цене, промени свој софтвер или измени услове лиценце под којом издаје свој софтвер\"</em>. <br /><br />Ораганизације широм света, укључујући и Национални архив Аустралије пребацују своје документе на овај нови формат да би осигурали неограничен приступ својим дигиталним информацијама сада али и у будућности.Ми охрабрујемо кориснике да пређу са затворених и опасних власничких формата на отворене и свима доступне формате, који ће увек бити ту."
+
+#: footer.php:4 gallery.php:4 mailinglist.php:2
+msgid "Gallery"
+msgstr "Галерија"
+
+#: footer.php:4 gallery.php:2 mailinglist.php:4 wiki.php:2
+msgid "Mailing list"
+msgstr "Листа ел.поште"
+
+#: footer.php:4 mailinglist.php:2 wiki.php:4
+msgid "Wiki"
+msgstr "Wiki"
+
+#: footer.php:5
+msgid ""
+"This site is best viewed \n"
+"\t\t\tat a resolution of 1024x768 and is valid <a target=\"_blank\" href=\"http://validator.w3.org/check?uri=referer\">XHTML</a> and \n"
+"\t\t\t<a target=\"_blank\" href=\"http://jigsaw.w3.org/css-validator/check/referer\">CSS</a>. Version 1.0."
+msgstr ""
+"Овај сајт можете најбоље видети \n"
+"\t\t\tat при резолуцији од 1024x768 и има исправан <a target=\"_blank\" href=\"http://validator.w3.org/check?uri=referer\">XHTML</a> и \n"
+"\t\t\t<a target=\"_blank\" href=\"http://jigsaw.w3.org/css-validator/check/referer\">CSS</a>. Верзија 1.0."
+
+#: foss.php:2 foss.php:18 index.php:20 linux.php:4 software.php:2
+#: software.php:39
+msgid "What is Linux?"
+msgstr "Шта је то Линукс?"
+
+#: foss.php:4 index.php:16 linux.php:2 linux.php:23
+msgid "What is FOSS?"
+msgstr "Шта је то FOSS?"
+
+#: foss.php:6
+msgid "FOSS stands for 'Free and Open Source Software'. It is a movement started in 1983 by Richard Stallman and the <a target=\"_blank\" href=\"http://www.gnu.org/philosophy/philosophy.html\">Free Software Foundation</a> (FSF). 'Free' in this context refers to 'freedom' (as in free speech), not price (although FOSS also tends to be). As the FSF says <em>\"Free software is a matter of liberty not price\"</em> and this is an important distinction to make. Many pieces of software out there claim to be 'free', and I'm sure you have heard of terms like 'freeware' and 'shareware'. These types of software tend to be free (as in price) but not free (as in freedom)."
+msgstr "FOSS означава 'Free and Open Source Software'. То је покрет покренут 1983 године од стране Ричарда Сталмана (Richard Stallman) и <a target=\"_blank\" href=\"http://www.gnu.org/philosophy/philosophy.html\">Покрета за слободан софтвер (Free Software Foundation)</a> (FSF). Слободан у контексту 'слободе' (као слобода говора), а не цене (иако FOSS и то покушава да буде). Као што FSF каже <em>\"Слободан софтвер је ствар принципа а не цене\"</em> што је разлика коју треба знати. Многи програми тврде да су 'слободни', и верујем да сте сигурно чули за термине попут 'freeware' или 'shareware'. Ови типови софтвера су бесплатни (по питању цене) али не и слободни."
+
+#: foss.php:8
+msgid "All the software that you run on your computer has been created to work on your operating system. If you use Microsoft Windows, then the software has been 'packaged' to run on Windows. If you use Apple's OSX or even Linux then the same rule applies. Software that is 'packaged' and installed onto your computer generally exists in what is called 'binary' form or, as an 'executable'."
+msgstr "Сав софтвер који користите на свом рачунару је креиран да ради на вашем опреативном систему. Уколико користите Microsoft Windows, софтвер је 'запакован' за рад на Windows-у. Уколико користите Apple OSX или чак Линукс важе иста правила. Софтвер који је 'запакован' и инсталиран на вашем рачунару постоји у ономе што ми обично зовемо 'бинарни' облик или као 'извршни'."
+
+#: foss.php:10
+msgid "Binary software is 'locked' in a sense because it is in computer language. This means that it is virtually impossible for humans to see how it operates and what it is actually doing! A good example of this is spyware and virus software. When these applications are installed onto a machine it is very hard to work out exactly what they are doing. They could be sending your banking information across the internet, or grabbing all of your important passwords. You just don't know, because they are locked."
+msgstr "Бинарни софтвер је на неки начин 'закључан' јер се налази у облику рачунарског језика. Ово значи да је готово немогуће да људи виде како он функционише и шта заиста ради! Добар пример за ово је шпијунски и вирус софтвер. Када су ове апликације инсталиране на рачунар веома је тешко утврдити шта тачно раде. Могу слати ваше важе податке преко интернета или украсти ваше лозинке. Ви једноставно не можете знати, јер су закључане."
+
+#: foss.php:12
+msgid "All computer programs are first written by humans in readable language, which is called 'source code'. Microsoft owns the source code to Windows and their products, as does Apple to theirs, etc. Think about a computer virus. If we had the source code to the virus, we would know <em>exactly</em> what it does, and could easily stop it. The virus creators, Microsoft, Apple and others do not release their code to the public, which means no-one can tell what their software is actually doing."
+msgstr "Сви рачунарски програми се прво пишу на,за човека, разумљивом језику, који се обично зове 'изворни код'. Microsoft је власник изворног кода за Windows и друге њихове производе, као што је Apple власник свог, итд. Сада се сетите рачунраских вируса. Да имамо изворни код вируса могли би <em>тачно</em> да знамо шта он ради, и лако га зауставимо. Креатори вируса, Microsoft, Apple и други не објављују изворни код јавно, што значи да нико не може да каже тачно шта њихов софтвер стварно ради."
+
+
+#: foss.php:14
+msgid "There are software creators around the world however, who believe that everyone has the right to know exactly what the software on their computer is doing. Not only do they release 'packaged' versions of the software but more importantly, these people make the source code to their software freely available for everyone. This is called 'open source'. One great example of open source software is <a target=\"_blank\" href=\"http://mozilla.com/firefox\">Mozilla Firefox</a> a free web browser for Linux, Windows and OSX, which is safe and secure. For more examples of open source software, read on (or click <a href=\"software.php\">here</a> to visit now)."
+msgstr "Широм света постоје људи који развијају софтвер и верују да свако има право да зна шта њихов софтвер ради на рачунару. Не само што они објављују  'запаковане' верзије софтвера већ, што је много важније, ови људи изворни код својих програма чине јавно доступним. Такав код се зове 'отворени изворни код'. Један од сјаних примера софтвера отвореног кода јесте <a target=\"_blank\" href=\"http://mozilla.com/firefox\">Mozilla Firefox</a> бесплатни интернет претраживач за Линукс, Windows и OSX, који је безбедан и сигуран. За још примера, наставите да читате (или кликните <a href=\"software.php\">овде</a> да би одмах погледали)."
+
+
+#: foss.php:16
+msgid "In essence you can <em>only</em> trust open source software, because it is freely available for everyone to read in human form and see exactly what the software does. For this reason governments, other agencies, schools and individuals all around the world are switching to the security of open source software (and so should you!)."
+msgstr "У основу можете веровати <em>само</em> слободном софтверу отвореног кода, јер јер слободно доступан свима у човеку разумљивом језику и можете видети шта тачно одређени програм ради. Из овог разлога владе и друге организације, школе и појединци широм света прелазе ка сигурности коју пружа софтер отвореног кода (што би требали и ви!)."
+
+#: gallery.php:6
+msgid "To help you decide what Linux distribution you might want to try (and so you can see what Linux looks like) we have a gallery containing screenshots of recommended Linux distributions (listed <a href=\"getstarted.php#trylinux\">here</a>) for you to view. We also have screenshots of free open source software (listed <a href=\"software.php\">here</a>) so you can see what they look like if you want to give them a try."
+msgstr "Да би вам помогли коју Линукс дистрибуцију да одаберете (и да би видели како Линукс изгледа) обезбедили смо галерију која садржи снимке екрана препоручених Линукс дистрибуција (приказаних <a href=\"getstarted.php#trylinux\">овде</a>) које можете погледати. Такође имамо снимке екрана са популарним слободним софтвером (приказаним <a href=\"software.php\">овде</a>) тако да можете видети како он изгледа уколико се одлучите да га испробате."
+
+#: gallery.php:8
+msgid "To proceed to the gallery please follow <a target=\"_blank\" href=\"http://gallery.makethemove.net\">this</a> link."
+msgstr "Да би дошли до галерије кликните на <a target=\"_blank\" href=\"http://gallery.makethemove.net\">овај</a> линк."
+
+#: gallery.php:10 getstarted.php:43
+msgid "Enjoy!"
+msgstr "Уживајте!"
+
+#: getinvolved.php:4 getstarted.php:2 getstarted.php:47
+msgid "How to get involved"
+msgstr "Како могу да помогнем"
+
+#: getinvolved.php:5
+msgid "There are many ways in which you can become involved in Linux and the open source community. If you're interested in getting involved, then let me encourage you to do so!"
+msgstr "Постоји много начина на које се можете укључити у развој Линукса и заједнице отвореног кода. Уколико желите да помогнете, дозволите ми да вас охрабрим да то и учините!"
+
+#: getinvolved.php:7
+msgid "Spread the word!"
+msgstr "Кажите другима!"
+
+#: getinvolved.php:8
+msgid "One of the best ways you can help is to <em>spread the word</em> about how great both Linux and open source software are. The more people we have involved the better it will be!"
+msgstr "Један од најбољих начина на који можете помоћи јесте да <em>кажете другима</em> како су Линукс и софтвер отвореног кода сјајне ствари. Што више људи укључимо биће нам свима боље!"
+
+#: getinvolved.php:9
+msgid "Spread the word about this 'Make The Move' website, too. Post it on your blog, link it on your website, or email your friends and colleagues! Thanks!"
+msgstr "Такође, упознајте друге о веб сајту 'Направи прави корак'. Напиштите то на вашем блогу, поставите линк на вашем веб сајту, или пошаљите ел.пошту вашим пријатељима и колегама! Хвала!"
+
+#: getinvolved.php:11
+msgid "Assist a project"
+msgstr "Укључите се у пројекат"
+
+#: getinvolved.php:12
+msgid "You could help out with support on the forums and mailing lists of your favourite Linux distribution, or simply by reporting any problems you find. You might prefer to assist with your favourite application, or even help out with this 'Make The Move' project! We have a community driven <a href=\"http://wiki.makethemove.net\">wiki</a> and <a href=\"http://lists.makethemove.net/listinfo.cgi/general-makethemove.net\">mailing list</a> which need love and attention."
+msgstr "Могли би нам помоћи са вашим учешћем на форумима и листама ел.поште за вашу омиљену Линукс дистрибуцију, или једноставним пријављивањем проблема на које наиђете. Можда вам више одговара да пружате помоћ везано за вашу омиљену апликацију, или чак да нам помогнете на пројекту 'Направи прави корак'! Ми имамо покренут <a href=\"http://wiki.makethemove.net\">wiki</a> сајт и  <a href=\"http://lists.makethemove.net/listinfo.cgi/general-makethemove.net\">листу ел.поште</a> којима је потребна пажња и љубав."
+
+#: getinvolved.php:14
+msgid "We are also looking for people to <em>translate</em> this website into their native language. If you're up for the challenge, have some suggestions for this website, or find errors please <a href=\"contact.php\">let me know</a>."
+msgstr "Ми такође тражимо људе који желе да <em>преведу</em> овај сајт на свој матерњи језик. Уколико сматрате да сте дорасли том задатку, и имате одређене предлоге везане за овај сајт, или сте уочили одређене грешке <a href=\"contact.php\">јавите ми се</a>."
+
+#: getinvolved.php:16
+msgid "To start, pick something that you are passionate about or are interested in. Identify what your skills are and what you can offer to such a project or group. Then make yourself known by contacting the project and see what you can do to help."
+msgstr "Да би кренули, изаберите нешто што вама одговара или вас занима. Процените колико је ваше знање и шта то можете понудити одређеном пројекту или групи. Затим нас контактирајте и видите шта можете да учините."
+
+#: getinvolved.php:18
+msgid "Also consider joining up to your local <a href=\"http://www.linux.org/groups/\">Linux User Group</a>. It's a great way to help others, get help yourself and learn more."
+msgstr "Такође размотрите прикључење вашој локалној <a href=\"http://www.linux.org/groups/\">Линукс корисничкој групи</a>. То је сјајан начин да помогнете другима, сами добијете помоћ и научите више."
+
+#: getinvolved.php:20
+msgid "Financial support"
+msgstr "Финансијска подршка"
+
+#: getinvolved.php:22
+msgid "Financial support is also a great way to help open source projects. As their software is made available free of charge, many projects rely on donations to further development. Every little bit helps."
+msgstr "Финансијска подршка је такође сјајан начин да помогнете пројекте отвореног кода. Како је њихов софтвер доступан без икакве надокнаде, многи пројекти се ослањају на донације ради даљег развоја. Чак je и мала помоћ драгоцена."
+
+#: getstarted.php:6
+msgid "So you like the sound of Linux and free open source software? Want to know where to go from here?"
+msgstr "Значи свидео вам се Линукс и софтвер отвореног кода? Желите да знате како даље?"
+
+#: getstarted.php:8
+msgid "Try some free open source software!"
+msgstr "Испробајте нешто од слободног софтвера!"
+
+#: getstarted.php:9
+msgid "Well, if you would like to try out some software on your current Windows or OSX operating system you can! There are many open source applications available for you to try. Some are listed on the '<a href=\"software.php\">Software you might already use</a>' page. Follow the links on that page and download the software you want to try. They are often available for Windows and OSX."
+msgstr "Добро, уколико желите да испробате неки од програма на вашем тренутном Windows или OSX оперативном систему и то можете! Постоје многи програми отвореног кода који су вам доступни за пробу. Неки од њих су приказани на страници '<a href=\"software.php\">Слободан софтвер који можда већ користите</a>'. Следите линкове на тој страници и преузмите софтвер који желите да пробате. Они су обично доступни и за Windows и OSX."
+
+#: getstarted.php:11
+msgid "Try Linux!"
+msgstr "Испробајте Линукс!"
+
+#: getstarted.php:12
+msgid "Perhaps you want to try out Linux on your own computer? If you're ready to jump right in you could install it straight onto your computer's hard drive, or you could also test Linux on your computer from a 'Live CD' without installing it! A Live CD boots your computer into a Linux system running entirely from the CD in your computer's memory. It does not install to your hard drive so you can try Linux without needing to change your computer's current setup."
+msgstr "Можда желите да испробате Линукс на свом рачунару? Уколико сте спремни да се окушате можете га одмах инстлаирати на хард диск свог рачунара, или га тестирати на свом рачунару преко 'Live CD'-а без инсталирања! Live CD подиже Линукс на вашем рачунару директно и у потпуности са CD-а у меморију вашег рачунара. Он не врши инсталацију на ваш хард диск па тако можете тестирати Линукс без потребе да мењате тренутну потавку система на вашем рачунару."
+
+#: getstarted.php:14
+msgid ""
+"As mentioned in the '<a href=\"linux.php\">What is Linux?</a>' section, there are many versions of Linux, called 'distributions'. In essence they are all the same but they can have different ways of doing things, such as the way they handle the installation of applications. Different distributions often come with different software by default and some come with different versions of that software. Artwork is often different as can be the layout and feel of the desktop. There are two main user interfaces (desktops) for Linux. One is called '<a target=\"_blank\" href=\"http://kde.org\">KDE</a>' and the other is '<a target=\"_blank\" href=\"http://gnome.org\">GNOME</a>'. Most distributions come with both, so you test and see which one you prefer to use. Our <a href=\"gallery.php\">gallery</a> contains screenshots of both, so you can see what they look like.<br /><br />\n"
+"\n"
+"You may like to try a few different Linux distributions until you find one you really like to use. A great resource for distribution news and information can be found at <a href=\"http://distrowatch.com\">Distrowatch.com</a>."
+msgstr ""
+"Као што је речено у поглављу '<a href=\"linux.php\">Шта је то Линукс?</a>', постоји много верзија Линукса, које се зову 'дистрибуције'. У основи, оне су све исте али на различите начине одрађују одређене задатке, као што је рецимо поступак инсталације софтвера. Различите дистрибуције често долазе са различитим софтвером у основној поставци, а неке и са различитим верзијама истог софтвера. Графички излед се често разликује јер он даје посебан печат десктопу. Постоје два основна корисничка окружења (десктоп) за Линукс. Један се зове '<a target=\"_blank\" href=\"http://kde.org\">KDE</a>' а други је '<a target=\"_blank\" href=\"http://gnome.org\">GNOME</a>'. Већина дистрибуција долази са оба окружења, па их тако можете испробати и видети које вам више одговара. Наша <a href=\"gallery.php\">галерија</a> садржи снимке екрана са ова окружења, па тако можете видети како изгледају.<br /><br />\n"
+"\n"
+"Можете испробати неколико Линукс дистрибуција све док не пронађете ону која вам највише одговара. Одличан извор за вести о дистрибуцијама и информацијама где их можете набавити можете пронаћи на <a href=\"http://distrowatch.com\">Distrowatch.com</a>."
+
+
+#: getstarted.php:18
+msgid "Here is a list of some of the most popular distributions for you to investigate:"
+msgstr "Овде се налази листа неких од најпопуларнијих дистрибуција које би могли да погледате:"
+
+#: getstarted.php:20
+msgid "Installation only"
+msgstr "Само инсталација"
+
+#: getstarted.php:21
+msgid "Live CD"
+msgstr "Live CD"
+
+#: getstarted.php:22 getstarted.php:24
+msgid "Live CD available"
+msgstr "Доступан Live CD"
+
+#: getstarted.php:23
+msgid "Live DVD available"
+msgstr "Доступан Live DVD"
+
+#: getstarted.php:27
+msgid "Remember that Linux can be installed on the same hard drive next to your Windows installation, so if you aren't ready to make the full jump you can test Linux and still have Windows available if you need it."
+msgstr "Не заборавите да Линукс може бити инсталиран на истом хард диску, поред постојеће инсталације Windows-а, па уколико нисте спремни да у потнуности пређете на Линукс моћи ћете да испробате Линукс а да и даље имате Windows када вам затреба."
+
+#: getstarted.php:29
+msgid "Will Linux run on your computer?"
+msgstr "Да ли ће Линукс радити на вашем рачунару?"
+
+#: getstarted.php:30
+msgid "As Linux has excellent hardware support, chances are that the Linux distribution you choose will run well on your computer. Many distributions provide 'minimum requirement' information and some can even check your computer and report on what will and won't work, before you install! Linux also tends to be less memory intensive than other operating systems, so it often works well even on older computers."
+msgstr "Како Линукс има одличну подршку за хардвер, велика је вероватноћа да ће Линукс дистрибуција коју сте изабрали радити добро на вашем рачунару. Многе дистрибуције имају 'минималне захтеве' а у неким случајевима и проверавају хардвер на вашем рачунару и обавештавају вас о томе шта ће радити а шта не, пре него што га и инсталирате! Линукс такође покушава да смањи заузеће меморије у односу на друге опреативне системе, па често ради добро и на старијим рачунарима."
+
+#: getstarted.php:32
+msgid "If you have a very old computer however, there are special distributions designed for older machines. Two excellent distributions in this area are <a href=\"http://www.puppylinux.org/\">Puppy</a> and <a href=\"http://www.damnsmalllinux.org/\">Damn Small</a>. They are also Live CDs and can even run on computers with a 486 processor and only 16MB of ram!"
+msgstr "Уколико имате веома стар рачунар, постоје специјализоване дистрибуције дизајниране за старије рачунаре. Две одличне дистрибуције за ову намену су  <a href=\"http://www.puppylinux.org/\">Puppy</a> и <a href=\"http://www.damnsmalllinux.org/\">Damn Small</a>. Постоје такође и Live CD-и који могу да раде на рачунарима са 486 процесорима и само 16MB меморије!"
+
+#: getstarted.php:34
+msgid "We suggest you start by downloading a Live CD from one of the distributions listed above, burn it to a blank CD then reboot your computer. This will let Linux boot from the CD entirely in memory without touching your hard drive. It's a great way to see what Linux is all about and how it works. It will also let you see which distribution you might like the most."
+msgstr "Предлажемо вам да почнете тако што ћете преузети Live CD једне од горе наведених дистрибуција, нарезати га на празан CD а затим рестартовати рачунар. Ово ће омогућити да се Линукс покрене директно и у потпуности са CD-а директно у меморију рачунара без дирања вашег хард диска. То је сјајан начин да видите шта је Линукс у ствари, шта може да уради и како то ради. Такође на овај начин можете видети која вам дистрибуција највише одговара."
+
+#: getstarted.php:36
+msgid "Documentation and Help"
+msgstr "Документација и Помоћ"
+
+#: getstarted.php:37
+msgid "As Linux works differently to Windows, we recommend reading the documentation that comes with the distribution you choose to install. This will help you create a successful installation the very first time round. Also, don't be shy to ask for help on the distribution's mailing list, forums, wiki or other support network."
+msgstr "Како Линукс ради другачије од Windows-а, препоручујемо вам да прочитате документацију која долази са дистрибуцијом коју сте одлучили да инсталирате. Ово вам може помоћи да изведете успешну инсталацију из прве. Такође, немојте се стидети да питате и затражите помоћ на листама ел.поште, форумима, wiki страницама или на неки други начин."
+
+#: getstarted.php:39
+msgid "Some Linux distributions like Ubuntu (via <a target=\"_blank\" href=\"http://www.canonical.com\">Canonical</a>) and Fedora (via <a target=\"_blank\" href=\"http://www.redhat.com\">Red Hat</a>) provide commercial support if you require it. We might also be able to help you here on our <a href=\"mailinglist.php\">mailing list</a> if you need assistance."
+msgstr "Неке Линукс дистрибуције као што је на пример Ubuntu (од <a target=\"_blank\" href=\"http://www.canonical.com\">Canonical-а</a>) и Fedora (од <a target=\"_blank\" href=\"http://www.redhat.com\">Red Hat-а</a>) пружају комерцијалну подршку уколико вам је потребна. Ми вам такоже можемо помоћи овде на преко наше <a href=\"mailinglist.php\">листе ел.поште</a> уколико вам затреба помоћ."
+
+#: getstarted.php:41
+msgid "On the previous <a href=\"action.php\">page</a> we have some screenshots of various Linux distributions and free open source software for you to view. We also intend to have some videos so you can see Linux in action."
+msgstr "На претходној <a href=\"action.php\">страници</a> имамо неколико снимака екрана различитих Линукс дистрибуција  и софтвера отвореног кода које можете погледати. Ми такође имамо намеру да поставимо и видео материјал да би могли да видите Лунукс на делу."
+
+#: getstarted.php:45
+msgid "We hope you enjoy the world of Linux and free open source software!"
+msgstr "Надамо се да уживате у свету Линукса и слободног софтвера отвореног кода!"
+
+#: header.php:53
+msgid "We welcome you to 'Make The Move'"
+msgstr "Желимо вам добродошлицу на 'Направи прави корак'"
+
+#: index.php:5
+msgid "<em>Welcome!</em>"
+msgstr "<em>Добродошли!</em>"
+
+#: index.php:6
+msgid ""
+"<strong>Make The Move</strong> aims to present Linux and open source software as viable alternatives to the system on your computer.<br /><br />\n"
+"\t\tThese alternatives are both free (as in price) and free (as in freedom), and put <strong>you</strong> back in control of your system.<br /><br />\n"
+"\t\tThis site is designed to flow from the <a href=\"foss.php\">What is FOSS?</a> section, however you may skip straight to any other.<br /><br />\n"
+"\t\tEnjoy!"
+msgstr ""
+"<strong>Нарави Прави Корак</strong> има за циљ представљање Линукса и софтвера отвореног кода као одличну замену за систем који користите на свом рачунару.<br /><br />\n"
+"\t\tОбе ове алтернативе су бесплатне и слободне, и омогућавају <strong>вам</strong> да вратите контролу над својим системом.<br /><br />\n"
+"\t\tОвај сајт је осмишљен да га пратите од поглавља <a href=\"foss.php\">Шта је то FOSS?</a>, мада можете прећи и на било које друго.<br /><br />\n"
+"\t\tУживајте!"
+
+#: index.php:24
+msgid "FOSS you might already use"
+msgstr "FOSS софтвер који већ користите"
+
+#: index.php:48
+msgid "How can I get involved?"
+msgstr "Како ја могу помоћи?"
+
+#: legal.php:4
+msgid "Legal"
+msgstr "Права"
+
+#: legal.php:6
+msgid "All trademarks and copyrights are property of their respective owners."
+msgstr "Све робне ознаке и власничка права су имовина њихових власника"
+
+#: linux.php:2 linux.php:23 software.php:4 why.php:2 why.php:44
+msgid "Software you might already use"
+msgstr "Софтвер који можда већ користите"
+
+#: linux.php:6
+msgid "Linux is an operating system for your computer, in a similar way that Microsoft Windows and Apple's OSX are operating systems for your computer. Linux is very different however (and we believe, better!)."
+msgstr "Линукс је оперативни систем за ваш рачунар, као што су на сличан начин Microsoft Windows и Apple OSX такође опративни системи за ваш рачунар. Ипак, Линукс је сасвим другачији (а ми верујемо и бољи!)."
+
+#: linux.php:8
+msgid "Linux was started in 1992 by then university student Linus Torvalds, who released his software for <em>free</em>, including all of the <a href=\"foss.php\">source code</a>. Because Linus made his source code freely available, thousands of developers around the world have downloaded it, made changes and sent improvements back to him!"
+msgstr "Линукс је започео свој живот 1992 године када је, у то време студент универизета, Линус Торвалдс (Linus Torvalds), објавио свој софтвер као  <em>слободан</em>, укључујући комплетан <a href=\"foss.php\">изворни код</a>. Самим овим чином ослобађања изворног кода Линус је омогућио хиљадама програмера да га преузму, дораде и побољшају и такав му врате назад!"
+
+#: linux.php:10
+msgid ""
+"Because of this global collaboration effort, Linux is stable, extremely flexible and well supported. It is the fastest growing operating system in the world and it is freely available for <em>you</em> to install onto your computer!\n"
+"Sound great? It is!"
+msgstr ""
+"Услед овог глобалног подухвата, Линукс је стабилан, веома флексибилан и има сјајну подршку. Он има најбржи развој у односу на све опреативне системе на свету и слободно је доступан <em>вама</em> за инсталацију на ваш рачунар!\n"
+"Звучи добро? И јесте добро!"
+
+#: linux.php:13
+msgid "Linux comes with thousands of free applications, which are maintained by thousands of volunteers around the world. These projects also release their source code, which means they too are 'open source'."
+msgstr "Линукс долази са хиљадама слободних апликација, које одржавају хиљаде волонтера широм света. Ови пројекти такође објављују свој изворни код, што значи да су и они 'отвореног кода'."
+
+#: linux.php:15
+msgid "<em>\"But how can they do all this for free?\"</em> I hear you ask. The Linux and open source communities do all this for free because they love the software, not because they try to make money from it. They are doing it for prestige, honour and because they believe in open source ideals."
+msgstr "<em>\"Али како све ово они раде бесплатно?\"</em> Чуо сам вас.Линукс заједнице и заједнице отвореног кода ово све раде бесплатно зато што воле слободан софтвер, а не зато што покушавају да зараде новац од њега. Они то раде из престижа, части и зато што верују у идеале покрета за слободан софтвер."
+
+#: linux.php:17
+msgid "It is important to note that due to the nature of open source software (the ability to customise it however you like) there are many different version of Linux. This is great because you can find a version that suits you best! These different versions of Linux are called 'distributions'. This is because the creators of the various versions take Linux and make their own changes to it, add their own packages and then distribute it for free. It might sound complicated, but it's not. So don't worry, we'll help you get started on the right track!"
+msgstr "Важно је напоменути да услед природе слободног софтвера (односно могућности да га подешавате по сопственим потребама) постоје многе различите верзије Линукса. Ово је веома добра ствар јер можете пронаћи верзију која вам највише одговара! Ове различите верзије Линукса се зову 'дистрибуције'. Ово је због тога што креатори бројних и разних верзија узимају Линукс и праве своје измене, додају сопствене софтверске пакете, а затим их дистрибуирају као слободне и бесплатне. Можда вам ово звучи компликовано, али није. Зато не брините, ми ћемо вам помоћи да кренете правим путем!"
+
+#: linux.php:19
+msgid "We invite you to look further into Linux and welcome you to 'make the move' into an amazing new world."
+msgstr "Ми вас позивамо да се боље упознате са Линуксом и да 'направите прави корак' у овај зачуђујући нови свет."
+
+#: linux.php:21
+msgid "Please read on, or skip through to the '<a href=\"getstarted.php\">Get started!</a>' section if you're ready to jump right in!"
+msgstr "Наставите са читањем, или прескочите до поглавља  '<a href=\"getstarted.php\">Кренимо!</a>' уколико сте већ спремни!"
+
+#: mailinglist.php:6
+msgid "This 'Make The Move' project has a <a target=\"_blank\" href=\"http://lists.makethemove.net/listinfo.cgi/general-makethemove.net\">mailing list</a> available for you to join. The mailing list is a way to send through questions on email about Linux or free open source software. The volunteers on the list will do their best to help you!"
+msgstr "Овај 'Направи прави корак' пројекат поседује <a target=\"_blank\" href=\"http://lists.makethemove.net/listinfo.cgi/general-makethemove.net\">листу ел.поште</a> којој се можете прикључити. Ова листа је начин на који можете послати своја питања преко адресе ел.поште о Линуксу и софтверу отвореног кода. Волонтери на истој листи ће дати све од себе да вам помогну!"
+
+#: mailinglist.php:8
+msgid "To subscribe, follow <a target=\"_blank\" href=\"http://lists.makethemove.net/listinfo.cgi/general-makethemove.net\">this</a> link and enter your information."
+msgstr "Да би се пријавили, пратите <a target=\"_blank\" href=\"http://lists.makethemove.net/listinfo.cgi/general-makethemove.net\">овај</a> линк и упишите своје податке."
+
+#: mailinglist.php:10
+msgid "We look forward to hearing from you!"
+msgstr "Очекујемо да се и ви огласите!"
+
+#: software.php:5
+msgid "Did you know that you might already be using <a href=\"foss.php\">free open source software</a> without knowing it?"
+msgstr "Да ли знате да можда већ користите  <a href=\"foss.php\"слободан софтвер</a> а да то и не знате?"
+#: software.php:6
+msgid "Open source applications are not just for Linux, but run on a number of different operating systems including Windows and OSX."
+msgstr "Апликације отвореног кода не постоје само за Линус, већ се могу покретати на већем броју оперативних система укључујући Windows и OSX."
+
+#: software.php:7
+msgid "Here is a list of some software and products that use free open source technology that you might already be using:"
+msgstr "Оде је приказана листа појединих програма и производа који користе технологију отвореног кода и које можда већ користите:"
+
+#: software.php:10
+msgid "File archiver (like Winzip) with high compression ratio"
+msgstr " Архивер фајлова (сличан Winzip-у) са високим степеном комресије"
+
+#: software.php:11
+msgid "Word processing program similar to Microsoft Word"
+msgstr "Програм за едитовање текста сличан Microsoft Word-у"
+
+#: software.php:12
+msgid "Web editor tool"
+msgstr "Алат за едитовење веб страница"
+
+#: software.php:13
+msgid "Sound editor"
+msgstr "Програм за едитовање звука"
+
+#: software.php:14
+msgid "3D graphics creation program"
+msgstr "Програм за креирање 3D графике"
+
+#: software.php:15
+msgid "Antivirus software"
+msgstr "Антивирус софтвер"
+
+#: software.php:16
+msgid "Internet television application and media player"
+msgstr "Апликација за интернет телевизују и мултимедијални плејер"
+
+#: software.php:17
+msgid "Internet chat program supporting many different networks"
+msgstr "Програм за четовање преко интернета који подржава различите мреже"
+
+#: software.php:18
+msgid "Raster image manipulation editor (like Adobe Photoshop)"
+msgstr "Програм за рад са битмап графиком (сличан Adobe Photoshop-у)"
+
+#: software.php:19
+msgid "Vector graphics editor"
+msgstr "Програм за векторску графику"
+
+#: software.php:20
+msgid "The flagship peer to peer (P2P) client on the Gnutella network"
+msgstr "Најбољи peer to peer (P2P) клијент за Гнутелу"
+
+#: software.php:21
+msgid "Very popular web browser"
+msgstr "Веома популарни веб претраживач"
+
+#: software.php:22
+msgid "The sister email client of Firefox"
+msgstr "Пратећи програм Firefox-а за ел.пошту"
+
+#: software.php:23
+msgid "Media player"
+msgstr "Мултимедијални плејер"
+
+#: software.php:24
+msgid "Complete web authoring system"
+msgstr "Комплетан систем за креирање веб садржаја"
+
+#: software.php:25
+msgid "Complete office suite compatible with Microsoft Office"
+msgstr "Комплетни пакет за канцеларију компатибилан са Microsoft Office-ом"
+
+#: software.php:26
+msgid "PDF creation program"
+msgstr "Програм за креирање PDF фајлова"
+
+#: software.php:27
+msgid "Page layout desktop publishing program"
+msgstr "Програм за припрему штампе"
+
+#: software.php:28
+msgid "Media player and video streaming solution"
+msgstr "Мултиледијални плејер и решење за снимање видеа"
+
+#: software.php:29
+msgid "Online community based encyclopaedia"
+msgstr "Интернет енциклопедија креирана од стране заједнице"
+
+#: software.php:30
+msgid "Network monitor application"
+msgstr "Апликација за мониторинг мреже"
+
+#: software.php:33
+msgid "And many more..."
+msgstr "И многи други..."
+
+#: software.php:35
+msgid "A project called '<a target=\"_blank\" href=\"http://www.theopencd.org/\">The Open CD</a>' provides a downloadable CD which includes many of the above pieces of software. You can even distribute freely to your friends!"
+msgstr "Пројекат под именом '<a target=\"_blank\" href=\"http://www.theopencd.org/\">Open CD</a>' обезбеђује CD који је могуће преузети и који укључује многе од горе наведених програма. Можете га чак и слободно копирати и делити својим пријатељима!"
+
+#: software.php:37
+msgid "If you want to see what open source is all about but are not ready to 'make the move' all the way to Linux, why not download some or all of the above software for your operating system? When you discover how great they are, perhaps you will be ready to take the next step to an entirely free and open source operating system too!"
+msgstr "Уколико желите видите шта је то софтвер отвореног кода али још увек нисте сремни да 'направите прави корак' преласком на Линукс, зашто не би скинули неке од горе наведених апликација и пробали их на вашем тренутном оперативном систему? Када откријете колико су добри, можда ћете бити спремни да направите следећи корак као потпуно слободном оперативном систему отвореног кода!"
+
+
+#: table.php:5
+msgid "Alternatives to Windows Software"
+msgstr "Алтернативе за Windows софтвер"
+
+#: table.php:7
+msgid ""
+"This table was <em>not</em> created by the Make The Move project and is just a backup table in case the external site is not available.<br /><br />\n"
+"Full credit goes to Fiodor Sorex and others involved in maintaining the table at their website here:<br />\n"
+"<a target=\"_blank\" href=\"http://www.linuxrsp.ru/win-lin-soft/table-eng.html\">http://www.linuxrsp.ru/win-lin-soft/table-eng.html</a><br /><br />"
+msgstr ""
+"Ова табела <em>није</em> креирана од стране пројекта Направи Прави Корак и ради се само о копији табеле у случају да спољни сајт није доступан.<br /><br />\n"
+"Све похвале иду на име Фјодора Сорекса (Fiodor Sorex) и других који су укључени у одржавање ове табеле на њиховом веб сајту:<br />\n"
+"<a target=\"_blank\" href=\"http://www.linuxrsp.ru/win-lin-soft/table-eng.html\">http://www.linuxrsp.ru/win-lin-soft/table-eng.html</a><br /><br />"
+
+#: why.php:4
+msgid "Why should I move to Linux?"
+msgstr "Зашто бих прешао на Линукс?"
+
+#: why.php:6
+msgid ""
+"Ok, so your installation of Windows 'works fine' so why should you bother about Linux?<br />\n"
+"Good question."
+msgstr ""
+"У реду, ваша инсталација Windows-а 'ради добро' па се поставља питање зашто се уопште бактати са Линуксом?<br />\n"
+"Добро питање."
+
+
+#: why.php:9
+msgid "There are many reasons why you might want to 'make the move' to Linux. Here are some of them:"
+msgstr "Постоји много разлога због којих би желели да 'направите корак' ка Линуксу. Ево само неких од њих:"
+
+#: why.php:11
+msgid "Viruses and Spyware"
+msgstr "Вируси и злонамерни софтвер"
+
+#: why.php:12
+msgid "Linux does not suffer from virus and spyware problems like Windows does. This is because of the secure way Linux was designed. Imagine not having to worry about getting a virus or opening that email attachment! Feel confident when using your computer."
+msgstr "Линукс не пати од проблема са вирусима и шпијунским софтвером као што је то случај са Windows-ом. Разлог овоме јесте сигурносни начин на који је Линукс креиран. Замислите да не морате да бринете о вирусима када отварате своју ел.пошту или отварате прикачене фајлове уз поруке! Будите сигурни и безбедни када користите свој рачунар."
+
+#: why.php:14
+msgid "Security and Stability"
+msgstr "Сигурност и Стабилност"
+
+#: why.php:15
+msgid "Linux is designed to be stable, safe and secure. Due to the nature of open source software, any security flaws are fixed very quickly. The world's best programmers and thousands of people contribute to the programs you would use everyday and this means you get the best software packages available which are continually being improved. In the much less frequent case of an application either misbehaving or crashing, Linux itself rarely fails completely. This results in your computer normally remaining active and usable. No more 'reboot and try again' syndrome! Often these situations can be resolved quite quickly using the tools available within Linux rather than purchased in addition to the operating system itself. You can access helpful log files and if you have the skills even the source code of the software, not to mention there's a great community of users willing to help! Using Linux puts you in control of your computer and you can rest knowing your system is safe, secure, and the software will always exist. Security updates are always available and you don't have to worry about issues like Microsoft no-longer supporting your version of Windows and having to pay for an upgrade (and probably a new computer!)."
+msgstr "Линукс је дизајниран да буде стабилан, безбедан и сигуран. Услед природе самог софтвера отвореног кода, сви сигурносни пропусти се исправљају веома брзо. Најбољи светски програмери и хиљаде других људи дају свој допринос програмима које користите сваки дан што значи да ћете имати доступне софтверске пакете који се стално усавршавају. У много ређем броју случајева када се аплиакција понаша лоше или се сруши, Линукс ретко када и сам блокира. Ово резултира тиме да ваш рачунар остаје активан и у пуној функцији. Нема више оног синдрома 'ресетуј и покушај поново' ! Често се овакве ситуације решавају веома брзо коришћењем софтверских алата доступних у самом Линуксу унесто куповине додатног софтвера који се не налази уз оперативни систем. Можете приступити веома корисним лог фајловима и уколико имате знања и изворни код софтвера, можете и сами исправити проблем, а да и не спомињем сјајну заједницу корисника спремних да вам помогну! Коришћењем Линукса добијате потпуно контролу на својим рачунаром и можете бити спокојни знајући да је ваш систем сигуран, обезбеђен и да ће његов софтвер увек постојати. Сигурносне исправке су увек доступне и не треба да бринете као што могу бринути корисници када Microsoft укине подршку за вашу верзију Windows-а и морају да плате надоградњу на нову верзију (а вероватно и нови рачунар!)."
+
+#: why.php:17
+msgid "Package Management"
+msgstr "Управљање Пакетима"
+
+#: why.php:18
+msgid "You can search for and install software on your Linux computer in a single convenient application. No searching the internet for the files you need or fumbling through the latest CD you got in the mail, just hit the install button to watch Linux download the required files from the internet and install them for you. Not only this, but once you have your system and applications installed, Linux keeps track of all of the application updates automatically, regardless of whether you have used those applications before or even knew that they were installed! So whether it's a security update, a new version of OpenOffice.org, or even the core Linux system itself, it is all handled seamlessly and easily. And, most importantly, being open source you know you can trust the software that is being installed!"
+msgstr "Можете потражити и инсталирати софтвер на вашем Линукс рачунару из само једне апликације. Нема претраживања интернета ради фајлова који су вам потребни или претраживања CD-а које сте добили поштом, довољно ће бити да кликенте на инсталациони тастер и да гледате како Линукс преузима потребне фајлове са интернета и инсталира их уместо вас. И то није све, јер када једном инсталирате систем и апликације које су вам потребне, Линукс води рачуна о новим верзијама програма аутоматски, без обзира да ли сте те апликације користили раније или уопште знате да их имате! Па тако, без обзира да ли се ради о сигурносној исправци, новој верзији OpenOffice.org-а, или самом језгру Линукса - кернелу, све се врло брзо и једноставно завршава. И, као наважније, обзиром да се ради о софтверу отвореног кода, можете имати поверења у софтвер који сте инсталирали!"
+
+#: why.php:20
+msgid "Features"
+msgstr "Могућности"
+
+#: why.php:21
+msgid "Linux is often at the forefront of computer technology and innovation. It is not bound by the same pressures as commercial entities and people are free to be creative and innovative. Some examples of where Linux has already included features before Windows are: fancy 3D desktop effects with <a target=\"_blank\" href=\"http://www.freedesktop.org/wiki/Software_2fXgl\">Xgl</a> and <a target=\"_blank\" href=\"http://beryl-project.org/\">beryl</a>; TV and media centre with <a target=\"_blank\" href=\"http://www.mythtv.org/\">mythtv</a>; desktop searching with <a target=\"_blank\" href=\"http://www.beagle-project.org\">beagle</a>; desktop widgets with <a target=\"_blank\" href=\"http://netdragon.sourceforge.net/\">superkaramba</a>; and many more. Plus, Linux is available for free right now!"
+msgstr "Линукс често предњачи у рачунарској технологији и иновацијама. Није ограничен комерцијалним развојем па су људи слободни да буду креативни и иновативни. Неки од примера где су неке могућности биле достпне на Линуксу пре Windows-а су: допадљиви 3D десктоп ефекти са <a target=\"_blank\" href=\"http://www.freedesktop.org/wiki/Software_2fXgl\">Xgl-ом</a> и <a target=\"_blank\" href=\"http://beryl-project.org/\">beryl-ом</a>; TV и мултимедијални центри попут <a target=\"_blank\" href=\"http://www.mythtv.org/\">mythtv</a>; претраживање десктопа са <a target=\"_blank\" href=\"http://www.beagle-project.org\">beagle-ом</a>; десктоп додаци са <a target=\"_blank\" href=\"http://netdragon.sourceforge.net/\">superkaramba-ом</a>; и много других. Као додатак, Линукс је одмах доступан и то бесплатно!"
+
+#: why.php:23
+msgid "Compatibility"
+msgstr "Компатибилност"
+
+#: why.php:24
+msgid "Linux runs on anything. In fact it is the most widely supported operating system in the world! From brand new computers to old ones you were going to throw away there is always a Linux version for you. With Linux you can still browse websites all over the internet, watch movies, listen to your music, access your digital camera, use your scanner and much much more. You can also send emails and create documents that are compatible with Windows systems."
+msgstr "Линукс се може покренути на скоро свачему. У ствари, ради се о најраширенијем оперативном систему на свету! Од најновијих рачунара до најстаријих које сте можда хтели да баците, увек постоји Линукс верзија за вас. Са Линуксом још увек можете да претражујете интернет странице, гледате филмове, слушате омиљену музику, имате приступ вашој дигиталној камери, користите свој скерер и још много тога. Такође можете да шаљете ел.пошту и креирате документе који су компатибилни са Windows системом."
+
+#: why.php:26
+msgid "Free (as in freedom)"
+msgstr "Слободан"
+
+#: why.php:27
+msgid "Linux is free open source software. This might not mean much to you if you are not a programmer but even if you are just an end user it means you can <em>trust</em> the software (see the section on '<a href=\"foss.php\">What is FOSS?</a>' for more information). Free open source software is also gaining popularity all over the world and is on the rise. Now is a good time to start learning a valuable new skill set."
+msgstr "Линукс представља софтвер отвореног кода. Можда вам ово непосредно неће много значити уколико нисте програмер али уколико сте само крајњи корисник то значи да можете имате <em>поверења</em> у софтвер (погледајте поглавље '<a href=\"foss.php\">Шта је то FOSS?</a>' за више информација). Слободан софтвер отвореног кода све више добија на популарности широм света и у сталном је успону. Право је време да се њим упознате."
+
+#: why.php:29
+msgid "Free (as in price)"
+msgstr "Бесплатан"
+
+#: why.php:30
+msgid "You might think that your computer came with Windows for free, but you actually <em>did</em> pay for it (unless it's an illegal copy). Linux however, actually <em>is</em> free. Forget worrying about pirated software! From complete office suites to media programs and internet applications, the open source software that comes with Linux is not only fully featured, it doesn't cost a cent."
+msgstr "Можда мислите да сте на вашем рачунару добили Windows бесплатно, али сте га у ствари <em>платили</em> (осим ако не користите нелегалну копију). Линукс са друге стране, заиста јесте <em>бесплатан</em>. Заборавите бриге са пиратским софтвером! Од комплетних office пакета преко мултимедијалних програма и интернет апликација, софтвер отвореног кода који долази са Линуксом не само што је потпуно функционалан, већ вас неће коштати ни динара."
+
+#: why.php:32
+msgid "Easy and Intuitive"
+msgstr "Једноставан и интуитиван"
+
+#: why.php:33
+msgid "A single 20 minute install of Linux will set up all your software <em>and</em> all your hardware in one go! You don't need to waste time searching for driver disks and going through the frustration of installing all your software. Once your Linux system is installed you will find it is very simple and easy to use. Linux is continually being improved and made more intuitive because people have the freedom to make changes to the software. These are then made available for everyone else to benefit from."
+msgstr "Довољно је само 20 минута да би инстлација Линукса подесила сав ваш софтвер <em>и</em> сав ваш хардвер у једном кораку! Не морате губити време у претраживању дискова или инстслирању софтвера. Када једном инсталирате Линукс систем видећете да је веома лак за коришћење. Линукс се стално унапређује и чини интуитивнијим и разумљивијим јер сви људи имају слободу да мењају софтвер. Затим тај софтвер постаје доступан свима и сви имају користи од тога."
+
+#: why.php:35
+msgid "Choice and Control"
+msgstr "Избор и Контрола"
+
+#: why.php:36
+msgid "Linux also puts you in control by giving you choice. Choice about what software to run and how you run it. You don't have to worry about being stuck with one particular program or a set way of doing something. There are thousands of free computer programs available for you to install at the click of a button! Indeed you can even customise the interface to your liking, or choose one of the various Linux versions available that work differently out of the box. Linux is flexible and lets you create a system that works for you. Find or create something that suits you!"
+msgstr "Линукс вам омогућава потпуну контролу дајући вам избор. Можете изаврати софтвер и начин на који ћете га користити. Не морате бринути да ћете се заглавити са само једним програмом или једним начином за обављање посла. Постоје на хиљаде доступних рачунарских програма које можете инсталирати само једним кликом на тастер !Такође, стварно можете да подесите графички изглед по вашем нахођењу, или изабрати једну од бројних Линукс верзија које другачије изгледају у самом старту. Линукс је прилагодљив и дозвољава вам да креирате сопствени систем који вама највише одговара. Пронађите или сами креирајте оно што вам највише одговара!"
+
+#: why.php:38
+msgid "Community"
+msgstr "Заједница"
+
+#: why.php:39
+msgid "Everyone using Linux does so because they <em>chose</em> to, not because they had to. People develop Linux because they have a passion for it, not because they do it for money or market share. This means things are done for the <em>right</em> reasons. Users are always willing to help others and Linux is a global collaboration effort. The Linux community is made up of people just like you and it's a great community to be a part of."
+msgstr "Сви који користе Линукс то чине јер су тако <em>хтели</em>, а не зато што су морали. Људи развијају Линукс зато што им је то представља страст и задовољство, а не због новца или деоница. Ово значи да се све ради због <em>правих</em> разлога. Корисници су увек спремни да помогну другима па Линукс представља глобални заједнички подухват. Линукс заједница се састоји од људи који су слични вама, и стога је право задовољсто бити њен члан."
+
+#: why.php:41
+msgid "Fun!"
+msgstr "Забава!"
+
+#: why.php:42
+msgid "Linux is also FUN to use. Imagine actually enjoying using your computer again! There's just something great about running Linux on your computer, even computer savvy people will be impressed!"
+msgstr "Линукс је такође веома ЗАБАВАН при коришћењу. Замислите да стварно поново уживате у раду на свом рачунару! Једноставно постоји феноменалан осећај при покретању Линукса, па ће чак и искусни корисници рачунара бити одушевљени!"
+
+#: wiki.php:6
+msgid "A 'wiki' is a special type of website for sharing information and they are usually created and maintained by the community. The software for such a website is created by an open soure project called <a target=\"_blank\" href=\"http://www.mediawiki.org\">MediaWiki</a>. Perhaps the most famous wiki is <a target=\"_blank\" href=\"http://wikipedia.org\">wikipedia</a> which is a free, online, community based encyclopaedia."
+msgstr "'wiki' предтавља посебан тип веб сајта за дељење информација и обично се креира од стране заједнице. Софтвер који се користи за овакав веб сајт је креиран од стране пројекта отвореног кода под именом <a target=\"_blank\" href=\"http://www.mediawiki.org\">MediaWiki</a>. Један од најпознатијих wikiја је  <a target=\"_blank\" href=\"http://wikipedia.org\">wikipedia</a> која представља бесплатну и online енциклопедију креирану од стране заједнице."
+
+#: wiki.php:8
+msgid "This 'Make The Move' project also has a community driven wiki designed to help you with Linux and free open source software."
+msgstr "Пројекат 'Направи прави корак' такође садржи и wiki странице постављене од стране заједнице да би вам помогли са вашим Линуксом и софтвером отвореног кода."
+
+#: wiki.php:10
+msgid "The wiki is a work in progress, but it is already online and available <a href=\"http://wiki.makethemove.net\">here</a>. If you feel you have something to contribute to the wiki, please feel free to add it!"
+msgstr "wiki представља тек започетни посао, али се већ налази на серверу и доступан је <a href=\"http://wiki.makethemove.net\">овде</a>. Уколико желите да дате свој допринос у раду на wiki станицама, можете то и да урадите!"
+
+#: wiki.php:12
+msgid "We hope the wiki is useful for you to help you 'make the move'."
+msgstr "Надамо се да вам је wiki од користи и да ће вам помоћи да 'направите прави корак'."

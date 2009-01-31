@@ -1,0 +1,355 @@
+body
+{
+	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+	font-size: .9em;
+	line-height: 1.25em;
+	/* background-image: url(images/tango/sliver.png);
+	background-repeat: repeat-x;
+	background-position: top left; */
+	background-image: url(images/tango/strip.png);
+	background-repeat: no-repeat;
+	background-position: 50% 650px;
+	margin: 0px;
+	padding: 10px;
+	background-color: #eeeeec;
+	/* height: 100%; */
+	min-width: 850px;
+}
+
+div#banner {
+	background-image: url(images/tango/sliver-small.png);
+	background-repeat: repeat-x;
+	background-position: top left;
+	width: 100%;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	}
+
+a img {
+border: none;
+}
+
+a.a_home {
+padding-left: 16px;
+background: url(images/tango/home.png);
+background-repeat: no-repeat;
+}
+
+a.a_back {
+padding-left: 16px;
+background: url(images/tango/back.png);
+background-repeat: no-repeat;
+}
+
+a.a_forward{
+padding-right: 16px;
+background: url(images/tango/forward.png);
+background-repeat: no-repeat;
+}
+
+select#theme_pic {
+display: inline;
+background-image: url(images/tango/theme.png);
+background-repeat: no-repeat;
+padding-top: 5px;
+padding-bottom: 10px;
+width: 16px;
+height: 16px;
+}
+
+div#locale_pic {
+display: inline;
+background-image: url(images/tango/locale.png);
+background-repeat: no-repeat;
+width: 16px;
+height: 16px;
+}
+
+div#masthead
+{
+	background-image: url(images/tango/banner-small.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin-bottom: 10px;
+	border: 0px;
+}
+
+div#content {
+		margin-top: 100px;
+	}
+
+a
+{
+	color: #f57900;
+}
+
+a:hover
+{
+	color: #729fcf;
+}
+
+/* a:visited
+{
+	color: #f57900;
+} */
+
+a:hover
+{
+	text-decoration: none;
+}
+
+div#about
+{
+	width: 20%;	
+	height: 368px;
+	font-size: .8em;
+	font-style: italic;
+	float: left;
+	padding: 10px;
+	border: 1px solid #666666;
+	background-color: #dce0d4;
+	color: #444444;
+}
+
+div#welcomepic {
+	background: url("images/tango/welcome.png") top left no-repeat;
+	}
+	
+#about
+h2
+{
+	color: #444444;
+	margin-top: 0px;	
+	font-style: normal;
+	font-size: 1.2em;
+}
+
+/* The following is the styles for the centre boxes... */
+
+table#container
+{
+	/* text-align: center;
+	width: 100%;
+	float: left; */
+	margin: 0 auto; 
+	bottom: 0px;
+}
+
+div.container {
+	margin: 0 auto;
+	margin-top: -4px;
+	width: 77%;
+	float: right;
+	margin-bottom: 0px;
+	bottom: 0px;
+	}
+	
+table#container td {
+	width: 20%;
+	text-align: center;
+	margin: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	/*border: solid 1px #000000;*/
+	
+	}
+
+#container a
+{
+	/* background-color: #f4f4f4; */
+}
+
+a.item
+{
+	border: 1px dashed #666666;
+	background-color: #dce0d4;
+	text-align: center;
+	color: #444444;
+	padding: 10px;
+	/* height: 100px; */
+	width: 90%;
+	font-family: "bitstream vera sans";
+	float: right;
+	clear: both;
+	margin: 1%;
+	/* margin-left: 10%;
+	margin-right: 10%; */
+	font-size: .75em;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 95px;
+	padding-bottom: 10px;
+	/* padding-top: 38%;
+	padding-bottom: 3%; */ 
+	background-position: 50% 10px; 
+	background-repeat: no-repeat; 
+	/* height: 15px; */
+	/* left: 50%; */
+	opacity: 0.5;
+}
+
+a.item:hover
+{
+	opacity: 1;
+}
+
+
+
+h3
+{
+	padding-top: 5px;
+	padding-left: 30px;
+	margin-top: 0px;
+	height: 25px
+	
+}
+
+h3#nopadding
+{
+        margin-top: 0px;
+        padding-left: 0px;
+}
+		
+/* This is the end of the box styles */
+
+h3#foss {
+background-image: url(images/tango/foss-small.png);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+h3#linux {
+background-image: url(images/tango/linux-small.png);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+h3#software {
+background-image: url(images/tango/software-small.png);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+h3#why {
+background-image: url(images/tango/why-small.png);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+h3#data {
+background-image: url(images/tango/data-small.png);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+h3#considerations {
+background-image: url(images/tango/considerations-small.png);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+h3#action {
+background-image: url(images/tango/action-small.png);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+h3#getstarted {
+background-image: url(images/tango/getstarted-small.png);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+h3#getinvolved {
+background-image: url(images/tango/getinvolved-small.png);
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+div#footer
+{
+	border-top: 1px solid #ffffff;
+	background-color: #204a87;
+	color: #eeeeee;
+	width: 100%;
+	font-size: .8em;
+	margin: 0;
+	padding: 2px;
+	height: 3.0em;
+	text-align: center;
+	padding-left: 15px;
+	/* vertical-align: bottom; */
+	position: fixed;
+	/* bottom: 1.6em; */
+	left: 0px;
+	bottom: 0px;
+	clear: both;
+}
+
+div#css-choose 
+{
+	color: #ffffff;
+}
+
+form
+{
+	position: absolute; 
+	top: 10px; 
+	right: 10px; 
+	font-size: 0.8em;
+}
+
+form#locale
+{
+        position: absolute; top: 40px; right: 10px; font-size: 0.8em;
+}
+
+/* Here are the background specifications for the individual boxes */
+
+a#foss {
+background-image: url(images/tango/foss.png);
+}
+
+a#linux {
+background-image: url(images/tango/linux.png);
+}
+
+a#data {
+background-image: url(images/tango/data.png);
+}
+
+a#why {
+background-image: url(images/tango/why.png);
+}
+
+a#software {
+background-image: url(images/tango/software.png);
+}
+
+a#considerations {
+background-image: url(images/tango/considerations.png);
+}
+
+a#getstarted {
+background-image: url(images/tango/getstarted.png);
+}
+
+a#action {
+background-image: url(images/tango/action.png);
+}
+
+a#action-small {
+background-image: url(images/tango/action-small.png);
+}
+
+a#getinvolved {
+background-image: url(images/tango/getinvolved.png);
+}
